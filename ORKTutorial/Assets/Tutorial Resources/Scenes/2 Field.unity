@@ -129,7 +129,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 144}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: .2853508, z: .160232544}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -573,6 +573,135 @@ Transform:
   m_GameObject: {fileID: 788030916}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 326.40799, y: 34.2120209, z: 497.784241}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!1 &1191308336
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1191308339}
+  - 114: {fileID: 1191308338}
+  - 135: {fileID: 1191308337}
+  m_Layer: 2
+  m_Name: Battle 0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!135 &1191308337
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1191308336}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1191308338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1191308336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1828747119, guid: f5c55b3678e89c6409bf2371aaef7c05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useSceneID: 1
+  sceneID: 0
+  autoDestroy: 1
+  repeatDestroy: 0
+  destroyCheckTime: 1
+  checkObjectVariables: 0
+  variableCondition:
+    needed: 0
+    gameVariable: []
+  setObjectVariables: 0
+  variableSetter:
+    gameVariable: []
+  startType: 2
+  customType: 
+  autoStartAfter: 0
+  allowClick: 1
+  overrideClickDistance: 0
+  maxClickDistance: 3
+  keyToPress: 0
+  keyPressInTrigger: 0
+  dropItem:
+    type: 0
+    id: 0
+    level: 1
+    quantity: 1
+    chance: 100
+  consumeDrop: 0
+  useFront: 1
+  useBack: 1
+  useLeft: 1
+  useRight: 1
+  battleType: 0
+  canEscape: 0
+  setLooks: 1
+  allGroups: 0
+  combatant:
+  - factionID: 1
+    useGroup: 0
+    member:
+      id: 1
+      levelInit: 0
+      levelOnlyBattle: 0
+      levelMinOffset: -5
+      levelMaxOffset: 5
+      levelMinRandom: 1
+      levelMaxRandom: 99
+      levelKey: 
+      classInit: 0
+      classOnlyBattle: 0
+      classMinOffset: -5
+      classMaxOffset: 5
+      classMinRandom: 1
+      classMaxRandom: 99
+      classKey: 
+    id: 0
+  ownSpots: 0
+  playerSpot: []
+  playerSpotPA: []
+  playerSpotEA: []
+  allySpot: []
+  allySpotPA: []
+  allySpotEA: []
+  enemySpot: []
+  enemySpotPA: []
+  enemySpotEA: []
+  enablePA: 1
+  overridePAChance: 0
+  paChance: 0
+  enableEA: 1
+  overrideEAChance: 0
+  eaChance: 0
+  itemGains: []
+  useDefaultStart: 1
+  startEventAsset: {fileID: 0}
+  useDefaultEnd: 1
+  victoryEventAsset: {fileID: 0}
+  escapeEventAsset: {fileID: 0}
+  defeatEventAsset: {fileID: 0}
+--- !u!4 &1191308339
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1191308336}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 315.184875, y: 33.2358017, z: 429.503571}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
