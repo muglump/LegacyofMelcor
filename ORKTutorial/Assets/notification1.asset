@@ -11,21 +11,20 @@ MonoBehaviour:
   m_Script: {fileID: 1274320150, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: notification1
   m_EditorClassIdentifier: 
-  time: 2/6/2014 1:04:20 PM
+  time: 2/7/2014 10:53:54 AM
   version: 2.0.0
   data:
-    name: moveEvent
-    xmlData: "<moveEvent startIndex=\"0\" >\n\t<_bool destroyPrefabs=\"False\" />\n\t<_floatarrays>\n\t\t<nodePosition
+    name: gameEvent
+    xmlData: "<gameEvent startIndex=\"0\" >\n\t<_bool destroyPrefabs=\"False\" />\n\t<_floatarrays>\n\t\t<nodePosition
       50 25 />\n\t</_floatarrays>\n\t<_subarrays>\n\t\t<prefab>\n\t\t</prefab>\n\t\t<audioClip>\n\t\t</audioClip>\n\t\t<step>\n\t\t\t<0
       id2=\"0\" next=\"1\" >\n\t\t\t\t<_float timeBetween=\"0\" />\n\t\t\t\t<_bool
       waitBetween=\"True\" wait=\"False\" fadeChildren=\"True\" flash=\"False\" setProp=\"False\"
       isFloat=\"False\" shared=\"False\" useAudio=\"False\" active=\"True\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
       300 25 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<prop><![CDATA[]]></prop>\n\t\t\t\t\t<_type><![CDATA[FadeObjectStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<onObject
       type=\"0\" aID=\"0\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t</onObject>\n\t\t\t\t<color
-      interpolation=\"0\" >\n\t\t\t\t\t<_float time=\"0.25\" />\n\t\t\t\t\t<_bool
-      alpha=\"True\" red=\"False\" green=\"False\" blue=\"False\" fromCurrent=\"False\"
-      />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<startColor 0 0 0 0 />\n\t\t\t\t\t\t<endColor
-      0 0 0 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</color>\n\t\t\t</0>\n\t\t\t<1
+      interpolation=\"0\" >\n\t\t\t\t\t<_float time=\"1\" />\n\t\t\t\t\t<_bool alpha=\"True\"
+      red=\"False\" green=\"False\" blue=\"False\" fromCurrent=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<startColor
+      0 0 0 0 />\n\t\t\t\t\t\t<endColor 0 0 0 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</color>\n\t\t\t</0>\n\t\t\t<1
       next=\"-1\" >\n\t\t\t\t<_bool active=\"True\" />\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<random
       2 4 6 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
       40 140 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<_type><![CDATA[RandomStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t</1>\n\t\t\t<2
@@ -49,16 +48,15 @@ MonoBehaviour:
       isFloat=\"False\" shared=\"False\" useAudio=\"False\" active=\"True\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
       715 170 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<prop><![CDATA[]]></prop>\n\t\t\t\t\t<_type><![CDATA[FadeObjectStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<onObject
       type=\"0\" aID=\"0\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t</onObject>\n\t\t\t\t<color
-      interpolation=\"0\" >\n\t\t\t\t\t<_float time=\"0.25\" />\n\t\t\t\t\t<_bool
-      alpha=\"True\" red=\"False\" green=\"False\" blue=\"False\" fromCurrent=\"False\"
-      />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<startColor 0 0 0 0 />\n\t\t\t\t\t\t<endColor
-      0 0 0 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</color>\n\t\t\t</5>\n\t\t\t<6
+      interpolation=\"0\" >\n\t\t\t\t\t<_float time=\"1\" />\n\t\t\t\t\t<_bool alpha=\"True\"
+      red=\"False\" green=\"False\" blue=\"False\" fromCurrent=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<startColor
+      0 0 0 0 />\n\t\t\t\t\t\t<endColor 0 0 0 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</color>\n\t\t\t</5>\n\t\t\t<6
       speedType=\"3\" next=\"3\" >\n\t\t\t\t<_float timeBetween=\"0\" time=\"3\" speed=\"5\"
       />\n\t\t\t\t<_bool waitBetween=\"True\" wait=\"False\" localSpace=\"True\" useController=\"True\"
       face=\"True\" active=\"True\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
       40 290 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<_type><![CDATA[MoveDirectionStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<moveObject
       type=\"0\" aID=\"0\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t</moveObject>\n\t\t\t\t<direction
-      type=\"0\" >\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<value 0 0 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<variableKey><![CDATA[]]></variableKey>\n\t\t\t\t\t</_string>\n\t\t\t\t</direction>\n\t\t\t</6>\n\t\t</step>\n\t</_subarrays>\n</moveEvent>\n"
+      type=\"0\" >\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<value 0 0 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<variableKey><![CDATA[]]></variableKey>\n\t\t\t\t\t</_string>\n\t\t\t\t</direction>\n\t\t\t</6>\n\t\t</step>\n\t</_subarrays>\n</gameEvent>\n"
     lookUp:
       textures: []
       audioClips: []
