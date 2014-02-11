@@ -9,9 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
-  m_Name: 635272893283434042
+  m_Name: 635273691994846538
   m_EditorClassIdentifier: 
-  time: 2/6/2014 12:39:41 PM
+  time: 2/7/2014 11:04:11 AM
   version: 2.0.0
   keys:
   - editorSettings
@@ -387,7 +387,7 @@ MonoBehaviour:
     xmlData: "<animationTypes idleID=\"0\" walkID=\"1\" runID=\"2\" sprintID=\"3\"
       jumpID=\"4\" fallID=\"5\" landID=\"6\" actionWaitIdleID=\"0\" actionCastIdleID=\"0\"
       damageID=\"7\" criticalDamageID=\"7\" evadeID=\"8\" deathID=\"9\" reviveID=\"10\"
-      victoryID=\"11\" >\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Idle]]></name>\n\t\t\t\t</_string>\n\t\t\t</0>\n\t\t\t<1>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Walk]]></name>\n\t\t\t\t</_string>\n\t\t\t</1>\n\t\t\t<2>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Run]]></name>\n\t\t\t\t</_string>\n\t\t\t</2>\n\t\t\t<3>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Sprint]]></name>\n\t\t\t\t</_string>\n\t\t\t</3>\n\t\t\t<4>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Jump]]></name>\n\t\t\t\t</_string>\n\t\t\t</4>\n\t\t\t<5>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Fall]]></name>\n\t\t\t\t</_string>\n\t\t\t</5>\n\t\t\t<6>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Land]]></name>\n\t\t\t\t</_string>\n\t\t\t</6>\n\t\t\t<7>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Damage]]></name>\n\t\t\t\t</_string>\n\t\t\t</7>\n\t\t\t<8>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Evade]]></name>\n\t\t\t\t</_string>\n\t\t\t</8>\n\t\t\t<9>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Death]]></name>\n\t\t\t\t</_string>\n\t\t\t</9>\n\t\t\t<10>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Revive]]></name>\n\t\t\t\t</_string>\n\t\t\t</10>\n\t\t\t<11>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Victory]]></name>\n\t\t\t\t</_string>\n\t\t\t</11>\n\t\t\t<12>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Attack]]></name>\n\t\t\t\t</_string>\n\t\t\t</12>\n\t\t</data>\n\t</_subarrays>\n</animationTypes>\n"
+      victoryID=\"11\" >\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Idle]]></name>\n\t\t\t\t</_string>\n\t\t\t</0>\n\t\t\t<1>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Walk]]></name>\n\t\t\t\t</_string>\n\t\t\t</1>\n\t\t\t<2>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Run]]></name>\n\t\t\t\t</_string>\n\t\t\t</2>\n\t\t\t<3>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Sprint]]></name>\n\t\t\t\t</_string>\n\t\t\t</3>\n\t\t\t<4>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Jump]]></name>\n\t\t\t\t</_string>\n\t\t\t</4>\n\t\t\t<5>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Fall]]></name>\n\t\t\t\t</_string>\n\t\t\t</5>\n\t\t\t<6>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Land]]></name>\n\t\t\t\t</_string>\n\t\t\t</6>\n\t\t\t<7>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Damage]]></name>\n\t\t\t\t</_string>\n\t\t\t</7>\n\t\t\t<8>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Evade]]></name>\n\t\t\t\t</_string>\n\t\t\t</8>\n\t\t\t<9>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Death]]></name>\n\t\t\t\t</_string>\n\t\t\t</9>\n\t\t\t<10>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Revive]]></name>\n\t\t\t\t</_string>\n\t\t\t</10>\n\t\t\t<11>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Victory]]></name>\n\t\t\t\t</_string>\n\t\t\t</11>\n\t\t\t<12>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Attack]]></name>\n\t\t\t\t</_string>\n\t\t\t</12>\n\t\t\t<13>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Use]]></name>\n\t\t\t\t</_string>\n\t\t\t</13>\n\t\t\t<14>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Cast]]></name>\n\t\t\t\t</_string>\n\t\t\t</14>\n\t\t\t<15>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Defend]]></name>\n\t\t\t\t</_string>\n\t\t\t</15>\n\t\t</data>\n\t</_subarrays>\n</animationTypes>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -406,7 +406,41 @@ MonoBehaviour:
       setSpeed=\"False\" stopAll=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[walk]]></name>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t\t<2
       typeID=\"2\" layer=\"0\" playType=\"2\" playMode=\"0\" queueMode=\"0\" >\n\t\t\t\t\t\t\t<_float
       stopFade=\"0.1\" fade=\"0.1\" weight=\"1\" />\n\t\t\t\t\t\t\t<_bool setLayer=\"True\"
-      setSpeed=\"False\" stopAll=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[run]]></name>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t</legacy>\n\t\t\t\t\t<mecanim>\n\t\t\t\t\t</mecanim>\n\t\t\t\t\t<mecanimStateCheck>\n\t\t\t\t\t</mecanimStateCheck>\n\t\t\t\t\t<custom>\n\t\t\t\t\t</custom>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</animations>\n"
+      setSpeed=\"False\" stopAll=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[run]]></name>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t\t<3
+      typeID=\"7\" layer=\"1\" playType=\"2\" playMode=\"0\" queueMode=\"0\" >\n\t\t\t\t\t\t\t<_float
+      stopFade=\"0.1\" fade=\"0.1\" weight=\"1\" />\n\t\t\t\t\t\t\t<_bool setLayer=\"True\"
+      setSpeed=\"False\" stopAll=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[damage]]></name>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</3>\n\t\t\t\t\t\t<4
+      typeID=\"8\" layer=\"1\" playType=\"2\" playMode=\"0\" queueMode=\"0\" >\n\t\t\t\t\t\t\t<_float
+      stopFade=\"0.1\" fade=\"0.1\" weight=\"1\" />\n\t\t\t\t\t\t\t<_bool setLayer=\"True\"
+      setSpeed=\"False\" stopAll=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[evade]]></name>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</4>\n\t\t\t\t\t\t<5
+      typeID=\"9\" layer=\"2\" playType=\"2\" playMode=\"0\" queueMode=\"0\" >\n\t\t\t\t\t\t\t<_float
+      stopFade=\"0.1\" fade=\"0.1\" weight=\"1\" />\n\t\t\t\t\t\t\t<_bool setLayer=\"True\"
+      setSpeed=\"False\" stopAll=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[death]]></name>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</5>\n\t\t\t\t\t\t<6
+      typeID=\"10\" layer=\"2\" playType=\"2\" playMode=\"0\" queueMode=\"0\" >\n\t\t\t\t\t\t\t<_float
+      stopFade=\"0.1\" fade=\"0.1\" weight=\"1\" />\n\t\t\t\t\t\t\t<_bool setLayer=\"True\"
+      setSpeed=\"False\" stopAll=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[revive]]></name>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</6>\n\t\t\t\t\t\t<7
+      typeID=\"11\" layer=\"2\" playType=\"2\" playMode=\"0\" queueMode=\"0\" >\n\t\t\t\t\t\t\t<_float
+      stopFade=\"0.1\" fade=\"0.1\" weight=\"1\" />\n\t\t\t\t\t\t\t<_bool setLayer=\"True\"
+      setSpeed=\"False\" stopAll=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[victory]]></name>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</7>\n\t\t\t\t\t\t<8
+      typeID=\"12\" layer=\"2\" playType=\"2\" playMode=\"0\" queueMode=\"0\" >\n\t\t\t\t\t\t\t<_float
+      stopFade=\"0.1\" fade=\"0.1\" weight=\"1\" />\n\t\t\t\t\t\t\t<_bool setLayer=\"True\"
+      setSpeed=\"False\" stopAll=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[attack]]></name>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</8>\n\t\t\t\t\t\t<9
+      typeID=\"13\" layer=\"2\" playType=\"2\" playMode=\"0\" queueMode=\"0\" >\n\t\t\t\t\t\t\t<_float
+      stopFade=\"0.1\" fade=\"0.1\" weight=\"1\" />\n\t\t\t\t\t\t\t<_bool setLayer=\"True\"
+      setSpeed=\"False\" stopAll=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[item]]></name>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</9>\n\t\t\t\t\t\t<10
+      typeID=\"14\" layer=\"2\" playType=\"2\" playMode=\"0\" queueMode=\"0\" >\n\t\t\t\t\t\t\t<_float
+      stopFade=\"0.1\" fade=\"0.1\" weight=\"1\" />\n\t\t\t\t\t\t\t<_bool setLayer=\"True\"
+      setSpeed=\"False\" stopAll=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[cast]]></name>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</10>\n\t\t\t\t\t\t<11
+      typeID=\"15\" layer=\"2\" playType=\"2\" playMode=\"0\" queueMode=\"0\" >\n\t\t\t\t\t\t\t<_float
+      stopFade=\"0.1\" fade=\"0.1\" weight=\"1\" />\n\t\t\t\t\t\t\t<_bool setLayer=\"True\"
+      setSpeed=\"False\" stopAll=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[defend]]></name>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</11>\n\t\t\t\t\t</legacy>\n\t\t\t\t\t<mecanim>\n\t\t\t\t\t</mecanim>\n\t\t\t\t\t<mecanimStateCheck>\n\t\t\t\t\t</mecanimStateCheck>\n\t\t\t\t\t<custom>\n\t\t\t\t\t</custom>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1>\n\t\t\t\t<_bool
+      mSetSpeed=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Battle]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<legacy>\n\t\t\t\t\t\t<0
+      typeID=\"0\" layer=\"-1\" playType=\"2\" playMode=\"0\" queueMode=\"0\" >\n\t\t\t\t\t\t\t<_float
+      stopFade=\"0.1\" fade=\"0.1\" weight=\"1\" />\n\t\t\t\t\t\t\t<_bool setLayer=\"True\"
+      setSpeed=\"False\" stopAll=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[battleidle]]></name>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
+      typeID=\"2\" layer=\"0\" playType=\"2\" playMode=\"0\" queueMode=\"0\" >\n\t\t\t\t\t\t\t<_float
+      stopFade=\"0.1\" fade=\"0.1\" weight=\"1\" />\n\t\t\t\t\t\t\t<_bool setLayer=\"True\"
+      setSpeed=\"False\" stopAll=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[battlerun]]></name>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</legacy>\n\t\t\t\t\t<mecanim>\n\t\t\t\t\t</mecanim>\n\t\t\t\t\t<mecanimStateCheck>\n\t\t\t\t\t</mecanimStateCheck>\n\t\t\t\t\t<custom>\n\t\t\t\t\t</custom>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t</data>\n\t</_subarrays>\n</animations>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -849,14 +883,38 @@ MonoBehaviour:
       type=\"1\" minValue=\"0\" maxValue=\"9999\" combinedFormulaID=\"0\" maxStatusID=\"0\"
       countInterpolate=\"0\" >\n\t\t\t\t<_float countTime=\"0.5\" />\n\t\t\t\t<_bool
       hidden=\"False\" combined=\"False\" killChar=\"True\" levelUp=\"False\" levelUpClass=\"False\"
-      useLevelDifference=\"False\" lvlDiffClass=\"False\" countToValue=\"False\" useAddNotification=\"False\"
-      addFlashHUD=\"False\" useSubNotification=\"False\" subFlashHUD=\"False\" ownConsoleIncrease=\"False\"
+      useLevelDifference=\"False\" lvlDiffClass=\"False\" countToValue=\"False\" useAddNotification=\"True\"
+      addFlashHUD=\"False\" useSubNotification=\"True\" subFlashHUD=\"False\" ownConsoleIncrease=\"False\"
       ownConsoleDecrease=\"False\" ownConsoleSet=\"False\" />\n\t\t\t\t<bar filling=\"0\"
       >\n\t\t\t\t\t<_float icOff=\"0\" />\n\t\t\t\t\t<_bool useIcons=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<icSize
       30 30 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<image>\n\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t<_float
       percent=\"100\" />\n\t\t\t\t\t\t\t\t<_bool useEmpty=\"False\" />\n\t\t\t\t\t\t\t\t<image
       scaleMode=\"0\" color=\"0\" >\n\t\t\t\t\t\t\t\t\t<_float imageAspect=\"0\" />\n\t\t\t\t\t\t\t\t\t<_bool
-      useImage=\"False\" alphaBlend=\"True\" />\n\t\t\t\t\t\t\t\t</image>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</image>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</bar>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[HP]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t\t<2
+      useImage=\"False\" alphaBlend=\"True\" />\n\t\t\t\t\t\t\t\t</image>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</image>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</bar>\n\t\t\t\t<addText
+      countInterpolate=\"2\" >\n\t\t\t\t\t<_float startCountFrom=\"50\" countTime=\"1\"
+      destroyTime=\"3\" />\n\t\t\t\t\t<_bool countToValue=\"True\" mountText=\"False\"
+      localSpace=\"False\" useFlash=\"True\" flashChildren=\"True\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<baseOffset
+      0 0 0 />\n\t\t\t\t\t\t<randomOffsetFrom 0 0 0 />\n\t\t\t\t\t\t<randomOffsetTo
+      0 0 0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<posChild><![CDATA[]]></posChild>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t<text>\n\t\t\t\t\t\t\t<0><![CDATA[+%]]></0>\n\t\t\t\t\t\t</text>\n\t\t\t\t\t</_stringarrays>\n\t\t\t\t\t<_eventasset
+      moveEvent=\"0\" />\n\t\t\t\t\t<textFormat colorID=\"3\" shadowColorID=\"1\"
+      fontSize=\"20\" fontStyle=\"0\" >\n\t\t\t\t\t\t<_bool showShadow=\"True\" />\n\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t<shadowOffset
+      1 1 />\n\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t</textFormat>\n\t\t\t\t\t<flash
+      interpolation=\"0\" >\n\t\t\t\t\t\t<_float time=\"2\" />\n\t\t\t\t\t\t<_bool
+      alpha=\"False\" red=\"True\" green=\"True\" blue=\"True\" fromCurrent=\"False\"
+      />\n\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t<startColor 0.9632353 0.01416524
+      0.01416524 0 />\n\t\t\t\t\t\t\t<endColor 0.01735512 0.1818495 0.7867647 1 />\n\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t</flash>\n\t\t\t\t</addText>\n\t\t\t\t<subText
+      countInterpolate=\"2\" >\n\t\t\t\t\t<_float startCountFrom=\"50\" countTime=\"1\"
+      destroyTime=\"3\" />\n\t\t\t\t\t<_bool countToValue=\"True\" mountText=\"False\"
+      localSpace=\"False\" useFlash=\"True\" flashChildren=\"True\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<baseOffset
+      0 0 0 />\n\t\t\t\t\t\t<randomOffsetFrom 0 0 0 />\n\t\t\t\t\t\t<randomOffsetTo
+      0 0 0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<posChild><![CDATA[]]></posChild>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t<text>\n\t\t\t\t\t\t\t<0><![CDATA[-%]]></0>\n\t\t\t\t\t\t</text>\n\t\t\t\t\t</_stringarrays>\n\t\t\t\t\t<_eventasset
+      moveEvent=\"1\" />\n\t\t\t\t\t<textFormat colorID=\"2\" shadowColorID=\"1\"
+      fontSize=\"20\" fontStyle=\"0\" >\n\t\t\t\t\t\t<_bool showShadow=\"True\" />\n\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t<shadowOffset
+      1 1 />\n\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t</textFormat>\n\t\t\t\t\t<flash
+      interpolation=\"0\" >\n\t\t\t\t\t\t<_float time=\"0.5\" />\n\t\t\t\t\t\t<_bool
+      alpha=\"False\" red=\"True\" green=\"True\" blue=\"True\" fromCurrent=\"False\"
+      />\n\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t<startColor 0.04314445 0.8382353
+      0.08152822 0 />\n\t\t\t\t\t\t\t<endColor 0.8529412 0.02508653 0.7273355 1 />\n\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t</flash>\n\t\t\t\t</subText>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[HP]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t\t<2
       type=\"0\" minValue=\"0\" maxValue=\"2147483647\" combinedFormulaID=\"0\" maxStatusID=\"0\"
       countInterpolate=\"0\" >\n\t\t\t\t<_float countTime=\"0.5\" />\n\t\t\t\t<_bool
       hidden=\"False\" combined=\"False\" killChar=\"False\" levelUp=\"False\" levelUpClass=\"False\"
@@ -871,14 +929,22 @@ MonoBehaviour:
       type=\"1\" minValue=\"0\" maxValue=\"2147483647\" combinedFormulaID=\"0\" maxStatusID=\"2\"
       countInterpolate=\"0\" >\n\t\t\t\t<_float countTime=\"0.5\" />\n\t\t\t\t<_bool
       hidden=\"False\" combined=\"False\" killChar=\"False\" levelUp=\"False\" levelUpClass=\"False\"
-      useLevelDifference=\"False\" lvlDiffClass=\"False\" countToValue=\"False\" useAddNotification=\"False\"
+      useLevelDifference=\"False\" lvlDiffClass=\"False\" countToValue=\"False\" useAddNotification=\"True\"
       addFlashHUD=\"False\" useSubNotification=\"False\" subFlashHUD=\"False\" ownConsoleIncrease=\"False\"
       ownConsoleDecrease=\"False\" ownConsoleSet=\"False\" />\n\t\t\t\t<bar filling=\"0\"
       >\n\t\t\t\t\t<_float icOff=\"0\" />\n\t\t\t\t\t<_bool useIcons=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<icSize
       30 30 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<image>\n\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t<_float
       percent=\"100\" />\n\t\t\t\t\t\t\t\t<_bool useEmpty=\"False\" />\n\t\t\t\t\t\t\t\t<image
       scaleMode=\"0\" color=\"0\" >\n\t\t\t\t\t\t\t\t\t<_float imageAspect=\"0\" />\n\t\t\t\t\t\t\t\t\t<_bool
-      useImage=\"False\" alphaBlend=\"True\" />\n\t\t\t\t\t\t\t\t</image>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</image>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</bar>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[MP]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</3>\n\t\t\t<4
+      useImage=\"False\" alphaBlend=\"True\" />\n\t\t\t\t\t\t\t\t</image>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</image>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</bar>\n\t\t\t\t<addText
+      countInterpolate=\"2\" >\n\t\t\t\t\t<_float startCountFrom=\"50\" countTime=\"1\"
+      destroyTime=\"3\" />\n\t\t\t\t\t<_bool countToValue=\"True\" mountText=\"False\"
+      localSpace=\"False\" useFlash=\"False\" flashChildren=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<baseOffset
+      0 0 0 />\n\t\t\t\t\t\t<randomOffsetFrom 0 0 0 />\n\t\t\t\t\t\t<randomOffsetTo
+      0 0 0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<posChild><![CDATA[]]></posChild>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t<text>\n\t\t\t\t\t\t\t<0><![CDATA[+%]]></0>\n\t\t\t\t\t\t</text>\n\t\t\t\t\t</_stringarrays>\n\t\t\t\t\t<_eventasset
+      moveEvent=\"2\" />\n\t\t\t\t\t<textFormat colorID=\"4\" shadowColorID=\"1\"
+      fontSize=\"20\" fontStyle=\"0\" >\n\t\t\t\t\t\t<_bool showShadow=\"True\" />\n\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t<shadowOffset
+      1 1 />\n\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t</textFormat>\n\t\t\t\t</addText>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[MP]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</3>\n\t\t\t<4
       type=\"0\" minValue=\"1\" maxValue=\"255\" combinedFormulaID=\"0\" maxStatusID=\"0\"
       countInterpolate=\"0\" >\n\t\t\t\t<_float countTime=\"0.5\" />\n\t\t\t\t<_bool
       hidden=\"False\" combined=\"False\" killChar=\"False\" levelUp=\"False\" levelUpClass=\"False\"
@@ -972,7 +1038,10 @@ MonoBehaviour:
       audioClips: []
       gameObjects: []
       guiSkins: []
-      eventAssets: []
+      eventAssets:
+      - {fileID: 11400000, guid: 4284e9fded7f5d549b8095e3cf7c8b03, type: 2}
+      - {fileID: 11400000, guid: 4284e9fded7f5d549b8095e3cf7c8b03, type: 2}
+      - {fileID: 11400000, guid: 4284e9fded7f5d549b8095e3cf7c8b03, type: 2}
     encrypted: 0
   - name: abilityTypes
     xmlData: "<abilityTypes>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Attacks]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Magic]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t\t<2>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Support]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</2>\n\t\t\t<3>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Sabotage]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</3>\n\t\t\t<4>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Passive]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</4>\n\t\t</data>\n\t</_subarrays>\n</abilityTypes>\n"
@@ -2388,16 +2457,21 @@ MonoBehaviour:
       />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</chance>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
       next=\"-1\" >\n\t\t\t\t\t\t\t<_bool active=\"True\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition
       305 50 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<_type><![CDATA[NoneStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t\t<2
-      foundType=\"2\" targetType=\"0\" needed=\"0\" nextFail=\"-1\" next=\"3\" >\n\t\t\t\t\t\t\t<_bool
+      foundType=\"2\" targetType=\"0\" needed=\"0\" nextFail=\"-1\" next=\"5\" >\n\t\t\t\t\t\t\t<_bool
       active=\"True\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition
-      295 175 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<_type><![CDATA[CheckStatusStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<req>\n\t\t\t\t\t\t\t\t\t<0
+      105 235 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<_type><![CDATA[CheckStatusStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<req>\n\t\t\t\t\t\t\t\t\t<0
       statusNeeded=\"1\" selectionID=\"4\" selectionID2=\"0\" comparison=\"0\" otherStatusValueID=\"0\"
       setter=\"1\" level=\"1\" >\n\t\t\t\t\t\t\t\t\t\t<_float value=\"0\" />\n\t\t\t\t\t\t\t\t\t\t<_bool
       checkDefAttrVal=\"False\" compareWithOther=\"False\" classLevel=\"False\" knowsAbility=\"True\"
       learned=\"False\" applied=\"False\" isDead=\"False\" />\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</req>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t\t<3
       id=\"6\" level=\"1\" next=\"-1\" >\n\t\t\t\t\t\t\t<_bool useHighest=\"False\"
       active=\"True\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition
-      265 310 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<_type><![CDATA[AbilityStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</3>\n\t\t\t\t\t</step>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1
+      675 245 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<_type><![CDATA[AbilityStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</3>\n\t\t\t\t\t\t<4
+      next=\"-1\" >\n\t\t\t\t\t\t\t<_bool useCounter=\"False\" active=\"True\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition
+      765 385 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<_type><![CDATA[AttackStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</4>\n\t\t\t\t\t\t<5
+      next=\"-1\" >\n\t\t\t\t\t\t\t<_bool active=\"True\" />\n\t\t\t\t\t\t\t<_intarrays>\n\t\t\t\t\t\t\t\t<random
+      3 4 />\n\t\t\t\t\t\t\t</_intarrays>\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition
+      410 310 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<_type><![CDATA[RandomStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</5>\n\t\t\t\t\t</step>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1
       startIndex=\"0\" >\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 50 25 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Magician]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<step>\n\t\t\t\t\t\t<0
       foundType=\"2\" targetType=\"2\" needed=\"0\" nextFail=\"2\" next=\"1\" >\n\t\t\t\t\t\t\t<_bool
       active=\"True\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition
@@ -2478,13 +2552,13 @@ MonoBehaviour:
     encrypted: 0
   - name: combatants
     xmlData: "<combatants>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0 menuID=\"0\" animationSystem=\"0\"
-      animationID=\"0\" animationBattleID=\"0\" moveID=\"0\" startLevel=\"1\" startClassLevel=\"1\"
+      animationID=\"0\" animationBattleID=\"1\" moveID=\"0\" startLevel=\"1\" startClassLevel=\"1\"
       startClassID=\"0\" statusDevelopmentID=\"0\" logTextID=\"0\" logID=\"0\" stealItemType=\"0\"
       stealItemID=\"0\" stealMoneyAmount=\"0\" aggressionType=\"0\" >\n\t\t\t\t<_float
       sympathyChange=\"0\" boxRadius=\"1\" amaMinFallTime=\"0.3\" amaMinRunSpeed=\"3\"
       amaMinSprintSpeed=\"6\" stealItemFactor=\"1\" stealMoneyFactor=\"1\" aiTimeout=\"0\"
       />\n\t\t\t\t<_bool useObjectVariables=\"False\" objectVariablesLocal=\"False\"
-      ownBM=\"False\" noRevive=\"False\" leaveOnDeath=\"False\" useBattleAnims=\"False\"
+      ownBM=\"False\" noRevive=\"False\" leaveOnDeath=\"False\" useBattleAnims=\"True\"
       autoMoveAnimation=\"True\" animateDefend=\"False\" animateEscape=\"False\" animateDeath=\"False\"
       animateNone=\"False\" useMoveAI=\"False\" noStatusDevelopment=\"False\" ownLvlUp=\"False\"
       learnLog=\"False\" completeLog=\"False\" logShowConsole=\"True\" lootInventory=\"True\"
@@ -2531,19 +2605,19 @@ MonoBehaviour:
       type=\"2\" equipID=\"4\" level=\"1\" >\n\t\t\t\t\t\t\t\t\t</3>\n\t\t\t\t\t\t\t\t\t<4
       type=\"0\" equipID=\"0\" level=\"1\" >\n\t\t\t\t\t\t\t\t\t</4>\n\t\t\t\t\t\t\t\t</equipment>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</startEquipment>\n\t\t\t\t\t<baseAttack>\n\t\t\t\t\t\t<0
       id=\"0\" level=\"1\" >\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</baseAttack>\n\t\t\t\t\t<battleSound>\n\t\t\t\t\t</battleSound>\n\t\t\t\t\t<aiBehaviour>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Player]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1
-      menuID=\"0\" animationSystem=\"0\" animationID=\"0\" animationBattleID=\"0\"
+      menuID=\"0\" animationSystem=\"0\" animationID=\"0\" animationBattleID=\"1\"
       moveID=\"0\" startLevel=\"5\" startClassLevel=\"1\" startClassID=\"0\" statusDevelopmentID=\"0\"
       logTextID=\"0\" logID=\"0\" stealItemType=\"0\" stealItemID=\"0\" stealMoneyAmount=\"0\"
       aggressionType=\"0\" >\n\t\t\t\t<_float sympathyChange=\"0\" boxRadius=\"1\"
       amaMinFallTime=\"0.3\" amaMinRunSpeed=\"3\" amaMinSprintSpeed=\"6\" stealItemFactor=\"1\"
       stealMoneyFactor=\"1\" aiTimeout=\"0\" />\n\t\t\t\t<_bool useObjectVariables=\"False\"
       objectVariablesLocal=\"False\" ownBM=\"False\" noRevive=\"False\" leaveOnDeath=\"False\"
-      useBattleAnims=\"False\" autoMoveAnimation=\"True\" animateDefend=\"False\"
-      animateEscape=\"False\" animateDeath=\"False\" animateNone=\"False\" useMoveAI=\"False\"
-      noStatusDevelopment=\"True\" ownLvlUp=\"False\" learnLog=\"False\" completeLog=\"False\"
-      logShowConsole=\"True\" lootInventory=\"True\" lootRandom=\"False\" stealItem=\"True\"
-      stealFixItem=\"True\" stealItemOnce=\"True\" stealMoney=\"False\" stealMoneyOnce=\"False\"
-      aiControlled=\"True\" aiNearestTarget=\"False\" attackLastTarget=\"False\" attackGroupTarget=\"False\"
+      useBattleAnims=\"True\" autoMoveAnimation=\"True\" animateDefend=\"False\" animateEscape=\"False\"
+      animateDeath=\"False\" animateNone=\"False\" useMoveAI=\"False\" noStatusDevelopment=\"True\"
+      ownLvlUp=\"False\" learnLog=\"False\" completeLog=\"False\" logShowConsole=\"True\"
+      lootInventory=\"True\" lootRandom=\"False\" stealItem=\"True\" stealFixItem=\"True\"
+      stealItemOnce=\"True\" stealMoney=\"False\" stealMoneyOnce=\"False\" aiControlled=\"True\"
+      aiNearestTarget=\"False\" attackLastTarget=\"False\" attackGroupTarget=\"False\"
       aggressionNotifyGroup=\"True\" aggressionReactGroup=\"True\" aggressionNotifyFaction=\"False\"
       aggressionReactFaction=\"False\" ownConsoleDefend=\"False\" ownConsoleEscape=\"False\"
       ownConsoleDeath=\"False\" ownConsoleNone=\"False\" ownConsoleLevelUp=\"False\"
@@ -2580,19 +2654,19 @@ MonoBehaviour:
       id=\"0\" level=\"1\" >\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</baseAttack>\n\t\t\t\t\t<battleSound>\n\t\t\t\t\t</battleSound>\n\t\t\t\t\t<aiBehaviour>\n\t\t\t\t\t\t<0
       battleAI=\"0\" >\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Evil
       Pants]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t\t<2
-      menuID=\"0\" animationSystem=\"0\" animationID=\"0\" animationBattleID=\"0\"
+      menuID=\"0\" animationSystem=\"0\" animationID=\"0\" animationBattleID=\"1\"
       moveID=\"0\" startLevel=\"5\" startClassLevel=\"1\" startClassID=\"0\" statusDevelopmentID=\"0\"
       logTextID=\"0\" logID=\"0\" stealItemType=\"0\" stealItemID=\"1\" stealMoneyAmount=\"0\"
       aggressionType=\"0\" >\n\t\t\t\t<_float sympathyChange=\"0\" boxRadius=\"1\"
       amaMinFallTime=\"0.3\" amaMinRunSpeed=\"3\" amaMinSprintSpeed=\"6\" stealItemFactor=\"1\"
       stealMoneyFactor=\"1\" aiTimeout=\"0\" />\n\t\t\t\t<_bool useObjectVariables=\"False\"
       objectVariablesLocal=\"False\" ownBM=\"False\" noRevive=\"False\" leaveOnDeath=\"False\"
-      useBattleAnims=\"False\" autoMoveAnimation=\"True\" animateDefend=\"False\"
-      animateEscape=\"False\" animateDeath=\"False\" animateNone=\"False\" useMoveAI=\"False\"
-      noStatusDevelopment=\"True\" ownLvlUp=\"False\" learnLog=\"False\" completeLog=\"False\"
-      logShowConsole=\"True\" lootInventory=\"True\" lootRandom=\"False\" stealItem=\"True\"
-      stealFixItem=\"True\" stealItemOnce=\"True\" stealMoney=\"False\" stealMoneyOnce=\"False\"
-      aiControlled=\"True\" aiNearestTarget=\"False\" attackLastTarget=\"False\" attackGroupTarget=\"False\"
+      useBattleAnims=\"True\" autoMoveAnimation=\"True\" animateDefend=\"False\" animateEscape=\"False\"
+      animateDeath=\"False\" animateNone=\"False\" useMoveAI=\"False\" noStatusDevelopment=\"True\"
+      ownLvlUp=\"False\" learnLog=\"False\" completeLog=\"False\" logShowConsole=\"True\"
+      lootInventory=\"True\" lootRandom=\"False\" stealItem=\"True\" stealFixItem=\"True\"
+      stealItemOnce=\"True\" stealMoney=\"False\" stealMoneyOnce=\"False\" aiControlled=\"True\"
+      aiNearestTarget=\"False\" attackLastTarget=\"False\" attackGroupTarget=\"False\"
       aggressionNotifyGroup=\"True\" aggressionReactGroup=\"True\" aggressionNotifyFaction=\"False\"
       aggressionReactFaction=\"False\" ownConsoleDefend=\"False\" ownConsoleEscape=\"False\"
       ownConsoleDeath=\"False\" ownConsoleNone=\"False\" ownConsoleLevelUp=\"False\"
@@ -2631,19 +2705,19 @@ MonoBehaviour:
       id=\"0\" level=\"1\" >\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</baseAttack>\n\t\t\t\t\t<battleSound>\n\t\t\t\t\t</battleSound>\n\t\t\t\t\t<aiBehaviour>\n\t\t\t\t\t\t<0
       battleAI=\"1\" >\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Evil
       Caster]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</2>\n\t\t\t<3
-      menuID=\"0\" animationSystem=\"0\" animationID=\"0\" animationBattleID=\"0\"
+      menuID=\"0\" animationSystem=\"0\" animationID=\"0\" animationBattleID=\"1\"
       moveID=\"0\" startLevel=\"5\" startClassLevel=\"1\" startClassID=\"0\" statusDevelopmentID=\"0\"
       logTextID=\"0\" logID=\"0\" stealItemType=\"0\" stealItemID=\"3\" stealMoneyAmount=\"0\"
       aggressionType=\"0\" >\n\t\t\t\t<_float sympathyChange=\"0\" boxRadius=\"1\"
       amaMinFallTime=\"0.3\" amaMinRunSpeed=\"3\" amaMinSprintSpeed=\"6\" stealItemFactor=\"1\"
       stealMoneyFactor=\"1\" aiTimeout=\"0\" />\n\t\t\t\t<_bool useObjectVariables=\"False\"
       objectVariablesLocal=\"False\" ownBM=\"False\" noRevive=\"False\" leaveOnDeath=\"False\"
-      useBattleAnims=\"False\" autoMoveAnimation=\"True\" animateDefend=\"False\"
-      animateEscape=\"False\" animateDeath=\"False\" animateNone=\"False\" useMoveAI=\"False\"
-      noStatusDevelopment=\"True\" ownLvlUp=\"False\" learnLog=\"False\" completeLog=\"False\"
-      logShowConsole=\"True\" lootInventory=\"True\" lootRandom=\"False\" stealItem=\"True\"
-      stealFixItem=\"True\" stealItemOnce=\"True\" stealMoney=\"False\" stealMoneyOnce=\"False\"
-      aiControlled=\"True\" aiNearestTarget=\"False\" attackLastTarget=\"False\" attackGroupTarget=\"False\"
+      useBattleAnims=\"True\" autoMoveAnimation=\"True\" animateDefend=\"False\" animateEscape=\"False\"
+      animateDeath=\"False\" animateNone=\"False\" useMoveAI=\"False\" noStatusDevelopment=\"True\"
+      ownLvlUp=\"False\" learnLog=\"False\" completeLog=\"False\" logShowConsole=\"True\"
+      lootInventory=\"True\" lootRandom=\"False\" stealItem=\"True\" stealFixItem=\"True\"
+      stealItemOnce=\"True\" stealMoney=\"False\" stealMoneyOnce=\"False\" aiControlled=\"True\"
+      aiNearestTarget=\"False\" attackLastTarget=\"False\" attackGroupTarget=\"False\"
       aggressionNotifyGroup=\"True\" aggressionReactGroup=\"True\" aggressionNotifyFaction=\"False\"
       aggressionReactFaction=\"False\" ownConsoleDefend=\"False\" ownConsoleEscape=\"False\"
       ownConsoleDeath=\"False\" ownConsoleNone=\"False\" ownConsoleLevelUp=\"False\"
