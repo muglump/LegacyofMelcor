@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 2/7/2014 11:26:39 AM
+  time: 2/11/2014 11:30:35 AM
   version: 2.0.0
   keys:
   - editorSettings
@@ -722,11 +722,15 @@ MonoBehaviour:
     encrypted: 0
   - name: cameraPositions
     xmlData: "<cameraPositions>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0>\n\t\t\t\t<_float
-      fieldOfView=\"40\" />\n\t\t\t\t<_bool localSpace=\"False\" lookAt=\"False\"
-      ignoreXRotation=\"False\" ignoreYRotation=\"False\" ignoreZRotation=\"False\"
-      setFoV=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<position 0 0 0 />\n\t\t\t\t\t<rotation
-      0 0 0 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Default
-      Position]]></name>\n\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t</_string>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</cameraPositions>\n"
+      fieldOfView=\"150\" />\n\t\t\t\t<_bool localSpace=\"False\" lookAt=\"True\"
+      ignoreXRotation=\"True\" ignoreYRotation=\"True\" ignoreZRotation=\"False\"
+      setFoV=\"True\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<position 0 0 0 />\n\t\t\t\t\t<rotation
+      0 0 90 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Battle
+      Start Zoom]]></name>\n\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t</_string>\n\t\t\t</0>\n\t\t\t<1>\n\t\t\t\t<_float
+      fieldOfView=\"40\" />\n\t\t\t\t<_bool localSpace=\"False\" lookAt=\"True\" ignoreXRotation=\"False\"
+      ignoreYRotation=\"False\" ignoreZRotation=\"False\" setFoV=\"True\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<position
+      8 13 9 />\n\t\t\t\t\t<rotation 0 0 0 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Battle
+      View]]></name>\n\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t</_string>\n\t\t\t</1>\n\t\t</data>\n\t</_subarrays>\n</cameraPositions>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -1170,7 +1174,7 @@ MonoBehaviour:
       castTime=\"0\" timebarUse=\"1000\" reuseTime=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
       revive=\"False\" counterable=\"False\" reflectable=\"False\" useHitChance=\"False\"
       hasCritical=\"False\" cancelable=\"False\" castMove=\"False\" endTurn=\"True\"
-      callGlobalEvent=\"False\" changeClass=\"False\" animate=\"False\" itemShowConsole=\"True\"
+      callGlobalEvent=\"False\" changeClass=\"False\" animate=\"True\" itemShowConsole=\"True\"
       />\n\t\t\t\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t\t\t\t<activationTags>\n\t\t\t\t\t\t\t\t\t</activationTags>\n\t\t\t\t\t\t\t\t</_stringarrays>\n\t\t\t\t\t\t\t\t<targetSettings
       targetType=\"2\" targetRange=\"1\" isDead=\"1\" >\n\t\t\t\t\t\t\t\t\t<_bool
       useAffectRange=\"False\" ownUseRange=\"False\" />\n\t\t\t\t\t\t\t\t</targetSettings>\n\t\t\t\t\t\t\t\t<ddActivation
@@ -1203,7 +1207,13 @@ MonoBehaviour:
       >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool setAttribute=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</attackAttribute>\n\t\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t</consume>\n\t\t\t\t\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t\t\t\t\t</effect>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</targetChange>\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<animation>\n\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t<_float
       chance=\"100\" />\n\t\t\t\t\t\t\t\t\t\t\t<_bool field=\"False\" turnBased=\"True\"
       activeTime=\"True\" realTime=\"True\" phase=\"True\" setPrefabs=\"False\" setAudioClips=\"False\"
-      />\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t</animation>\n\t\t\t\t\t\t\t\t\t<itemConsume>\n\t\t\t\t\t\t\t\t\t</itemConsume>\n\t\t\t\t\t\t\t\t\t<req>\n\t\t\t\t\t\t\t\t\t</req>\n\t\t\t\t\t\t\t\t\t<abilityCombo>\n\t\t\t\t\t\t\t\t\t</abilityCombo>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</active>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</level>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Fire]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</2>\n\t\t\t<3
+      />\n\t\t\t\t\t\t\t\t\t\t\t<_eventasset evt=\"3\" />\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t<1>\n\t\t\t\t\t\t\t\t\t\t\t<_float
+      chance=\"100\" />\n\t\t\t\t\t\t\t\t\t\t\t<_bool field=\"False\" turnBased=\"True\"
+      activeTime=\"True\" realTime=\"True\" phase=\"True\" setPrefabs=\"True\" setAudioClips=\"True\"
+      />\n\t\t\t\t\t\t\t\t\t\t\t<_eventasset evt=\"4\" />\n\t\t\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t<prefab>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_gameobject
+      prefab=\"0\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<1>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_gameobject
+      prefab=\"1\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t\t\t\t\t\t</prefab>\n\t\t\t\t\t\t\t\t\t\t\t\t<audioClip>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_audioclip
+      clip=\"0\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t\t</audioClip>\n\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t\t\t</animation>\n\t\t\t\t\t\t\t\t\t<itemConsume>\n\t\t\t\t\t\t\t\t\t</itemConsume>\n\t\t\t\t\t\t\t\t\t<req>\n\t\t\t\t\t\t\t\t\t</req>\n\t\t\t\t\t\t\t\t\t<abilityCombo>\n\t\t\t\t\t\t\t\t\t</abilityCombo>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</active>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</level>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Fire]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</2>\n\t\t\t<3
       abilityType=\"1\" useableIn=\"1\" selectionID=\"0\" lvlType=\"0\" expID=\"0\"
       >\n\t\t\t\t<_bool allowLvlChange=\"False\" ownSelection=\"False\" ownConsoleAction=\"False\"
       ownConsoleCast=\"False\" ownConsoleCastCancel=\"False\" ownConsoleLearning=\"False\"
@@ -1213,7 +1223,7 @@ MonoBehaviour:
       castTime=\"0\" timebarUse=\"1000\" reuseTime=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
       revive=\"False\" counterable=\"False\" reflectable=\"False\" useHitChance=\"False\"
       hasCritical=\"False\" cancelable=\"False\" castMove=\"False\" endTurn=\"True\"
-      callGlobalEvent=\"False\" changeClass=\"False\" animate=\"False\" itemShowConsole=\"True\"
+      callGlobalEvent=\"False\" changeClass=\"False\" animate=\"True\" itemShowConsole=\"True\"
       />\n\t\t\t\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t\t\t\t<activationTags>\n\t\t\t\t\t\t\t\t\t</activationTags>\n\t\t\t\t\t\t\t\t</_stringarrays>\n\t\t\t\t\t\t\t\t<targetSettings
       targetType=\"2\" targetRange=\"1\" isDead=\"1\" >\n\t\t\t\t\t\t\t\t\t<_bool
       useAffectRange=\"False\" ownUseRange=\"False\" />\n\t\t\t\t\t\t\t\t</targetSettings>\n\t\t\t\t\t\t\t\t<ddActivation
@@ -1246,7 +1256,13 @@ MonoBehaviour:
       >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool setAttribute=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</attackAttribute>\n\t\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t</consume>\n\t\t\t\t\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t\t\t\t\t</effect>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</targetChange>\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<animation>\n\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t<_float
       chance=\"100\" />\n\t\t\t\t\t\t\t\t\t\t\t<_bool field=\"False\" turnBased=\"True\"
       activeTime=\"True\" realTime=\"True\" phase=\"True\" setPrefabs=\"False\" setAudioClips=\"False\"
-      />\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t</animation>\n\t\t\t\t\t\t\t\t\t<itemConsume>\n\t\t\t\t\t\t\t\t\t</itemConsume>\n\t\t\t\t\t\t\t\t\t<req>\n\t\t\t\t\t\t\t\t\t</req>\n\t\t\t\t\t\t\t\t\t<abilityCombo>\n\t\t\t\t\t\t\t\t\t</abilityCombo>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</active>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</level>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Water]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</3>\n\t\t\t<4
+      />\n\t\t\t\t\t\t\t\t\t\t\t<_eventasset evt=\"5\" />\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t<1>\n\t\t\t\t\t\t\t\t\t\t\t<_float
+      chance=\"100\" />\n\t\t\t\t\t\t\t\t\t\t\t<_bool field=\"False\" turnBased=\"True\"
+      activeTime=\"True\" realTime=\"True\" phase=\"True\" setPrefabs=\"True\" setAudioClips=\"True\"
+      />\n\t\t\t\t\t\t\t\t\t\t\t<_eventasset evt=\"6\" />\n\t\t\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t<prefab>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_gameobject
+      prefab=\"2\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<1>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_gameobject
+      prefab=\"3\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t\t\t\t\t\t</prefab>\n\t\t\t\t\t\t\t\t\t\t\t\t<audioClip>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_audioclip
+      clip=\"1\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t\t</audioClip>\n\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t\t\t</animation>\n\t\t\t\t\t\t\t\t\t<itemConsume>\n\t\t\t\t\t\t\t\t\t</itemConsume>\n\t\t\t\t\t\t\t\t\t<req>\n\t\t\t\t\t\t\t\t\t</req>\n\t\t\t\t\t\t\t\t\t<abilityCombo>\n\t\t\t\t\t\t\t\t\t</abilityCombo>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</active>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</level>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Water]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</3>\n\t\t\t<4
       abilityType=\"1\" useableIn=\"1\" selectionID=\"0\" lvlType=\"0\" expID=\"0\"
       >\n\t\t\t\t<_bool allowLvlChange=\"False\" ownSelection=\"False\" ownConsoleAction=\"False\"
       ownConsoleCast=\"False\" ownConsoleCastCancel=\"False\" ownConsoleLearning=\"False\"
@@ -1256,7 +1272,7 @@ MonoBehaviour:
       castTime=\"0\" timebarUse=\"1000\" reuseTime=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
       revive=\"False\" counterable=\"False\" reflectable=\"False\" useHitChance=\"False\"
       hasCritical=\"False\" cancelable=\"False\" castMove=\"False\" endTurn=\"True\"
-      callGlobalEvent=\"False\" changeClass=\"False\" animate=\"False\" itemShowConsole=\"True\"
+      callGlobalEvent=\"False\" changeClass=\"False\" animate=\"True\" itemShowConsole=\"True\"
       />\n\t\t\t\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t\t\t\t<activationTags>\n\t\t\t\t\t\t\t\t\t</activationTags>\n\t\t\t\t\t\t\t\t</_stringarrays>\n\t\t\t\t\t\t\t\t<targetSettings
       targetType=\"2\" targetRange=\"1\" isDead=\"1\" >\n\t\t\t\t\t\t\t\t\t<_bool
       useAffectRange=\"False\" ownUseRange=\"False\" />\n\t\t\t\t\t\t\t\t</targetSettings>\n\t\t\t\t\t\t\t\t<ddActivation
@@ -1291,7 +1307,12 @@ MonoBehaviour:
       useHitChance=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t</effect>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</targetChange>\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<animation>\n\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t<_float
       chance=\"100\" />\n\t\t\t\t\t\t\t\t\t\t\t<_bool field=\"False\" turnBased=\"True\"
       activeTime=\"True\" realTime=\"True\" phase=\"True\" setPrefabs=\"False\" setAudioClips=\"False\"
-      />\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t</animation>\n\t\t\t\t\t\t\t\t\t<itemConsume>\n\t\t\t\t\t\t\t\t\t</itemConsume>\n\t\t\t\t\t\t\t\t\t<req>\n\t\t\t\t\t\t\t\t\t</req>\n\t\t\t\t\t\t\t\t\t<abilityCombo>\n\t\t\t\t\t\t\t\t\t</abilityCombo>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</active>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</level>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Poison]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</4>\n\t\t\t<5
+      />\n\t\t\t\t\t\t\t\t\t\t\t<_eventasset evt=\"7\" />\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t<1>\n\t\t\t\t\t\t\t\t\t\t\t<_float
+      chance=\"100\" />\n\t\t\t\t\t\t\t\t\t\t\t<_bool field=\"False\" turnBased=\"True\"
+      activeTime=\"True\" realTime=\"True\" phase=\"True\" setPrefabs=\"True\" setAudioClips=\"True\"
+      />\n\t\t\t\t\t\t\t\t\t\t\t<_eventasset evt=\"8\" />\n\t\t\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t<prefab>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_gameobject
+      prefab=\"4\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t\t</prefab>\n\t\t\t\t\t\t\t\t\t\t\t\t<audioClip>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_audioclip
+      clip=\"2\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t\t</audioClip>\n\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t\t\t</animation>\n\t\t\t\t\t\t\t\t\t<itemConsume>\n\t\t\t\t\t\t\t\t\t</itemConsume>\n\t\t\t\t\t\t\t\t\t<req>\n\t\t\t\t\t\t\t\t\t</req>\n\t\t\t\t\t\t\t\t\t<abilityCombo>\n\t\t\t\t\t\t\t\t\t</abilityCombo>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</active>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</level>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Poison]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</4>\n\t\t\t<5
       abilityType=\"2\" useableIn=\"2\" selectionID=\"0\" lvlType=\"0\" expID=\"0\"
       >\n\t\t\t\t<_bool allowLvlChange=\"False\" ownSelection=\"False\" ownConsoleAction=\"False\"
       ownConsoleCast=\"False\" ownConsoleCastCancel=\"False\" ownConsoleLearning=\"False\"
@@ -1301,7 +1322,7 @@ MonoBehaviour:
       castTime=\"0\" timebarUse=\"1000\" reuseTime=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
       revive=\"False\" counterable=\"False\" reflectable=\"False\" useHitChance=\"False\"
       hasCritical=\"False\" cancelable=\"False\" castMove=\"False\" endTurn=\"True\"
-      callGlobalEvent=\"False\" changeClass=\"False\" animate=\"False\" itemShowConsole=\"True\"
+      callGlobalEvent=\"False\" changeClass=\"False\" animate=\"True\" itemShowConsole=\"True\"
       />\n\t\t\t\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t\t\t\t<activationTags>\n\t\t\t\t\t\t\t\t\t</activationTags>\n\t\t\t\t\t\t\t\t</_stringarrays>\n\t\t\t\t\t\t\t\t<targetSettings
       targetType=\"1\" targetRange=\"1\" isDead=\"1\" >\n\t\t\t\t\t\t\t\t\t<_bool
       useAffectRange=\"False\" ownUseRange=\"False\" />\n\t\t\t\t\t\t\t\t</targetSettings>\n\t\t\t\t\t\t\t\t<ddActivation
@@ -1334,7 +1355,12 @@ MonoBehaviour:
       >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool setAttribute=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</attackAttribute>\n\t\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t</consume>\n\t\t\t\t\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t\t\t\t\t</effect>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</targetChange>\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<animation>\n\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t<_float
       chance=\"100\" />\n\t\t\t\t\t\t\t\t\t\t\t<_bool field=\"False\" turnBased=\"True\"
       activeTime=\"True\" realTime=\"True\" phase=\"True\" setPrefabs=\"False\" setAudioClips=\"False\"
-      />\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t</animation>\n\t\t\t\t\t\t\t\t\t<itemConsume>\n\t\t\t\t\t\t\t\t\t</itemConsume>\n\t\t\t\t\t\t\t\t\t<req>\n\t\t\t\t\t\t\t\t\t</req>\n\t\t\t\t\t\t\t\t\t<abilityCombo>\n\t\t\t\t\t\t\t\t\t</abilityCombo>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</active>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</level>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Small
+      />\n\t\t\t\t\t\t\t\t\t\t\t<_eventasset evt=\"9\" />\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t<1>\n\t\t\t\t\t\t\t\t\t\t\t<_float
+      chance=\"100\" />\n\t\t\t\t\t\t\t\t\t\t\t<_bool field=\"False\" turnBased=\"True\"
+      activeTime=\"True\" realTime=\"True\" phase=\"True\" setPrefabs=\"True\" setAudioClips=\"True\"
+      />\n\t\t\t\t\t\t\t\t\t\t\t<_eventasset evt=\"10\" />\n\t\t\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t<prefab>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_gameobject
+      prefab=\"5\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t\t</prefab>\n\t\t\t\t\t\t\t\t\t\t\t\t<audioClip>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_audioclip
+      clip=\"3\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t\t</audioClip>\n\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t\t\t</animation>\n\t\t\t\t\t\t\t\t\t<itemConsume>\n\t\t\t\t\t\t\t\t\t</itemConsume>\n\t\t\t\t\t\t\t\t\t<req>\n\t\t\t\t\t\t\t\t\t</req>\n\t\t\t\t\t\t\t\t\t<abilityCombo>\n\t\t\t\t\t\t\t\t\t</abilityCombo>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</active>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</level>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Small
       Heal]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</5>\n\t\t\t<6
       abilityType=\"2\" useableIn=\"1\" selectionID=\"0\" lvlType=\"0\" expID=\"0\"
       >\n\t\t\t\t<_bool allowLvlChange=\"False\" ownSelection=\"False\" ownConsoleAction=\"False\"
@@ -1345,7 +1371,7 @@ MonoBehaviour:
       castTime=\"0\" timebarUse=\"1000\" reuseTime=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
       revive=\"False\" counterable=\"False\" reflectable=\"False\" useHitChance=\"False\"
       hasCritical=\"False\" cancelable=\"False\" castMove=\"False\" endTurn=\"True\"
-      callGlobalEvent=\"False\" changeClass=\"False\" animate=\"False\" itemShowConsole=\"True\"
+      callGlobalEvent=\"False\" changeClass=\"False\" animate=\"True\" itemShowConsole=\"True\"
       />\n\t\t\t\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t\t\t\t<activationTags>\n\t\t\t\t\t\t\t\t\t</activationTags>\n\t\t\t\t\t\t\t\t</_stringarrays>\n\t\t\t\t\t\t\t\t<targetSettings
       targetType=\"2\" targetRange=\"1\" isDead=\"1\" >\n\t\t\t\t\t\t\t\t\t<_bool
       useAffectRange=\"False\" ownUseRange=\"False\" />\n\t\t\t\t\t\t\t\t</targetSettings>\n\t\t\t\t\t\t\t\t<ddActivation
@@ -1360,7 +1386,12 @@ MonoBehaviour:
       soundTypeID=\"0\" >\n\t\t\t\t\t\t\t\t\t<_bool useSoundType=\"False\" />\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<consume>\n\t\t\t\t\t\t\t\t\t\t</consume>\n\t\t\t\t\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t\t\t\t\t</effect>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</targetChange>\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<animation>\n\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t<_float
       chance=\"100\" />\n\t\t\t\t\t\t\t\t\t\t\t<_bool field=\"False\" turnBased=\"True\"
       activeTime=\"True\" realTime=\"True\" phase=\"True\" setPrefabs=\"False\" setAudioClips=\"False\"
-      />\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t</animation>\n\t\t\t\t\t\t\t\t\t<itemConsume>\n\t\t\t\t\t\t\t\t\t</itemConsume>\n\t\t\t\t\t\t\t\t\t<req>\n\t\t\t\t\t\t\t\t\t</req>\n\t\t\t\t\t\t\t\t\t<abilityCombo>\n\t\t\t\t\t\t\t\t\t</abilityCombo>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</active>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</level>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Boost]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</6>\n\t\t\t<7
+      />\n\t\t\t\t\t\t\t\t\t\t\t<_eventasset evt=\"11\" />\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t<1>\n\t\t\t\t\t\t\t\t\t\t\t<_float
+      chance=\"100\" />\n\t\t\t\t\t\t\t\t\t\t\t<_bool field=\"False\" turnBased=\"True\"
+      activeTime=\"True\" realTime=\"True\" phase=\"True\" setPrefabs=\"True\" setAudioClips=\"True\"
+      />\n\t\t\t\t\t\t\t\t\t\t\t<_eventasset evt=\"12\" />\n\t\t\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t<prefab>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_gameobject
+      prefab=\"6\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t\t</prefab>\n\t\t\t\t\t\t\t\t\t\t\t\t<audioClip>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_audioclip
+      clip=\"4\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t\t</audioClip>\n\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t\t\t</animation>\n\t\t\t\t\t\t\t\t\t<itemConsume>\n\t\t\t\t\t\t\t\t\t</itemConsume>\n\t\t\t\t\t\t\t\t\t<req>\n\t\t\t\t\t\t\t\t\t</req>\n\t\t\t\t\t\t\t\t\t<abilityCombo>\n\t\t\t\t\t\t\t\t\t</abilityCombo>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</active>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</level>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Boost]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</6>\n\t\t\t<7
       abilityType=\"3\" useableIn=\"1\" selectionID=\"0\" lvlType=\"0\" expID=\"0\"
       >\n\t\t\t\t<_bool allowLvlChange=\"False\" ownSelection=\"False\" ownConsoleAction=\"False\"
       ownConsoleCast=\"False\" ownConsoleCastCancel=\"False\" ownConsoleLearning=\"False\"
@@ -1370,7 +1401,7 @@ MonoBehaviour:
       castTime=\"0\" timebarUse=\"1000\" reuseTime=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
       revive=\"False\" counterable=\"False\" reflectable=\"False\" useHitChance=\"False\"
       hasCritical=\"False\" cancelable=\"False\" castMove=\"False\" endTurn=\"True\"
-      callGlobalEvent=\"False\" changeClass=\"False\" animate=\"False\" itemShowConsole=\"True\"
+      callGlobalEvent=\"False\" changeClass=\"False\" animate=\"True\" itemShowConsole=\"True\"
       />\n\t\t\t\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t\t\t\t<activationTags>\n\t\t\t\t\t\t\t\t\t</activationTags>\n\t\t\t\t\t\t\t\t</_stringarrays>\n\t\t\t\t\t\t\t\t<targetSettings
       targetType=\"2\" targetRange=\"1\" isDead=\"1\" >\n\t\t\t\t\t\t\t\t\t<_bool
       useAffectRange=\"False\" ownUseRange=\"False\" />\n\t\t\t\t\t\t\t\t</targetSettings>\n\t\t\t\t\t\t\t\t<ddActivation
@@ -1398,7 +1429,12 @@ MonoBehaviour:
       useHitChance=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t\t\t\t</effect>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</targetChange>\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<animation>\n\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t<_float
       chance=\"100\" />\n\t\t\t\t\t\t\t\t\t\t\t<_bool field=\"False\" turnBased=\"True\"
       activeTime=\"True\" realTime=\"True\" phase=\"True\" setPrefabs=\"False\" setAudioClips=\"False\"
-      />\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t</animation>\n\t\t\t\t\t\t\t\t\t<itemConsume>\n\t\t\t\t\t\t\t\t\t</itemConsume>\n\t\t\t\t\t\t\t\t\t<req>\n\t\t\t\t\t\t\t\t\t</req>\n\t\t\t\t\t\t\t\t\t<abilityCombo>\n\t\t\t\t\t\t\t\t\t</abilityCombo>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</active>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</level>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Lessen]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</7>\n\t\t\t<8
+      />\n\t\t\t\t\t\t\t\t\t\t\t<_eventasset evt=\"13\" />\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t<1>\n\t\t\t\t\t\t\t\t\t\t\t<_float
+      chance=\"100\" />\n\t\t\t\t\t\t\t\t\t\t\t<_bool field=\"False\" turnBased=\"True\"
+      activeTime=\"True\" realTime=\"True\" phase=\"True\" setPrefabs=\"True\" setAudioClips=\"True\"
+      />\n\t\t\t\t\t\t\t\t\t\t\t<_eventasset evt=\"14\" />\n\t\t\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t<prefab>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_gameobject
+      prefab=\"7\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t\t</prefab>\n\t\t\t\t\t\t\t\t\t\t\t\t<audioClip>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_audioclip
+      clip=\"5\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t\t</audioClip>\n\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t\t\t</animation>\n\t\t\t\t\t\t\t\t\t<itemConsume>\n\t\t\t\t\t\t\t\t\t</itemConsume>\n\t\t\t\t\t\t\t\t\t<req>\n\t\t\t\t\t\t\t\t\t</req>\n\t\t\t\t\t\t\t\t\t<abilityCombo>\n\t\t\t\t\t\t\t\t\t</abilityCombo>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</active>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</level>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Lessen]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</7>\n\t\t\t<8
       abilityType=\"0\" useableIn=\"3\" selectionID=\"0\" lvlType=\"0\" expID=\"0\"
       >\n\t\t\t\t<_bool allowLvlChange=\"False\" ownSelection=\"False\" ownConsoleAction=\"False\"
       ownConsoleCast=\"False\" ownConsoleCastCancel=\"False\" ownConsoleLearning=\"False\"
@@ -1426,13 +1462,39 @@ MonoBehaviour:
       useHitChance=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t</4>\n\t\t\t\t\t\t\t\t\t\t</effect>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</autoEffects>\n\t\t\t\t\t\t\t</passive>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</level>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Immune]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</9>\n\t\t</data>\n\t</_subarrays>\n</abilities>\n"
     lookUp:
       textures: []
-      audioClips: []
-      gameObjects: []
+      audioClips:
+      - {fileID: 8300000, guid: e4d9766d2c191294fbb18da3350f0a7d, type: 3}
+      - {fileID: 8300000, guid: e4d9766d2c191294fbb18da3350f0a7d, type: 3}
+      - {fileID: 8300000, guid: 268efed7c9e40fc4087af61f1e134966, type: 3}
+      - {fileID: 8300000, guid: 268efed7c9e40fc4087af61f1e134966, type: 3}
+      - {fileID: 8300000, guid: 268efed7c9e40fc4087af61f1e134966, type: 3}
+      - {fileID: 8300000, guid: 268efed7c9e40fc4087af61f1e134966, type: 3}
+      gameObjects:
+      - {fileID: 100000, guid: 542f86e4e34b523499e0f073b1355e1a, type: 2}
+      - {fileID: 100008, guid: e5db0ca60c7360f42ae008eb2919990f, type: 2}
+      - {fileID: 100000, guid: 8600316ae23e146108aa156f81a2d56f, type: 2}
+      - {fileID: 100000, guid: caf20877f7cce4351a9b1cfef8dcd186, type: 2}
+      - {fileID: 100000, guid: 4b31b1caadab1ee4b8606c9f35713992, type: 2}
+      - {fileID: 100000, guid: c31fa1a55f0c141ccb34e61d6bb78569, type: 2}
+      - {fileID: 100000, guid: 5692846c5ce8f4ee08ef64bec4aad0bd, type: 2}
+      - {fileID: 100000, guid: 4b31b1caadab1ee4b8606c9f35713992, type: 2}
       guiSkins: []
       eventAssets:
       - {fileID: 11400000, guid: b3b957076616df64b8c2010a79d47b2d, type: 2}
       - {fileID: 11400000, guid: 5726ec03b03d13b42814590f52f46a50, type: 2}
       - {fileID: 11400000, guid: b3b957076616df64b8c2010a79d47b2d, type: 2}
+      - {fileID: 11400000, guid: 831d000f7aa11e84bb35d688318484c5, type: 2}
+      - {fileID: 11400000, guid: c2927ac67681caf47b6eaeeb341ff91b, type: 2}
+      - {fileID: 11400000, guid: 831d000f7aa11e84bb35d688318484c5, type: 2}
+      - {fileID: 11400000, guid: c2927ac67681caf47b6eaeeb341ff91b, type: 2}
+      - {fileID: 11400000, guid: 831d000f7aa11e84bb35d688318484c5, type: 2}
+      - {fileID: 11400000, guid: c2927ac67681caf47b6eaeeb341ff91b, type: 2}
+      - {fileID: 11400000, guid: 831d000f7aa11e84bb35d688318484c5, type: 2}
+      - {fileID: 11400000, guid: c2927ac67681caf47b6eaeeb341ff91b, type: 2}
+      - {fileID: 11400000, guid: 831d000f7aa11e84bb35d688318484c5, type: 2}
+      - {fileID: 11400000, guid: c2927ac67681caf47b6eaeeb341ff91b, type: 2}
+      - {fileID: 11400000, guid: 831d000f7aa11e84bb35d688318484c5, type: 2}
+      - {fileID: 11400000, guid: c2927ac67681caf47b6eaeeb341ff91b, type: 2}
     encrypted: 0
   - name: statusEffects
     xmlData: "<statusEffects>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0 priority=\"0\"
@@ -1830,7 +1892,7 @@ MonoBehaviour:
       consume=\"True\" consumeShowConsole=\"True\" revive=\"False\" ownSelection=\"False\"
       abilityShowConsole=\"True\" addItems=\"False\" addRandomItem=\"False\" itemsShowConsole=\"True\"
       learnRecipe=\"False\" recipeShowConsole=\"True\" learnLog=\"False\" completeLog=\"False\"
-      logShowConsole=\"True\" callGlobalEvent=\"False\" changeClass=\"False\" animate=\"False\"
+      logShowConsole=\"True\" callGlobalEvent=\"False\" changeClass=\"False\" animate=\"True\"
       ownConsoleAction=\"False\" ownConsoleAdd=\"False\" ownConsoleRemove=\"False\"
       />\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<activationTags>\n\t\t\t\t\t</activationTags>\n\t\t\t\t</_stringarrays>\n\t\t\t\t<_gameobject
       prefab=\"0\" />\n\t\t\t\t<price buyPrice=\"10\" sellPrice=\"50\" sellSetter=\"0\"
@@ -1854,7 +1916,12 @@ MonoBehaviour:
       attribute=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t<_bool setAttribute=\"False\" />\n\t\t\t\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t\t\t</attackAttribute>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</consume>\n\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t</effect>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</targetChange>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<items>\n\t\t\t\t\t</items>\n\t\t\t\t\t<animation>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_float
       chance=\"100\" />\n\t\t\t\t\t\t\t<_bool field=\"False\" turnBased=\"True\" activeTime=\"True\"
       realTime=\"True\" phase=\"True\" setPrefabs=\"False\" setAudioClips=\"False\"
-      />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</animation>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Health
+      />\n\t\t\t\t\t\t\t<_eventasset evt=\"0\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1>\n\t\t\t\t\t\t\t<_float
+      chance=\"100\" />\n\t\t\t\t\t\t\t<_bool field=\"False\" turnBased=\"True\" activeTime=\"True\"
+      realTime=\"True\" phase=\"True\" setPrefabs=\"True\" setAudioClips=\"True\"
+      />\n\t\t\t\t\t\t\t<_eventasset evt=\"1\" />\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<prefab>\n\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t<_gameobject
+      prefab=\"1\" />\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</prefab>\n\t\t\t\t\t\t\t\t<audioClip>\n\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t<_audioclip
+      clip=\"0\" />\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</audioClip>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</animation>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Health
       Potion]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1
       itemType=\"0\" quantityLimit=\"99\" useableIn=\"2\" selectionID=\"0\" itemAbility=\"0\"
       learnAbilityID=\"0\" useAbilityID=\"0\" abilityLevel=\"1\" recipeID=\"0\" logTextID=\"0\"
@@ -1864,9 +1931,9 @@ MonoBehaviour:
       ownSelection=\"False\" abilityShowConsole=\"True\" addItems=\"False\" addRandomItem=\"False\"
       itemsShowConsole=\"True\" learnRecipe=\"False\" recipeShowConsole=\"True\" learnLog=\"False\"
       completeLog=\"False\" logShowConsole=\"True\" callGlobalEvent=\"False\" changeClass=\"False\"
-      animate=\"False\" ownConsoleAction=\"False\" ownConsoleAdd=\"False\" ownConsoleRemove=\"False\"
+      animate=\"True\" ownConsoleAction=\"False\" ownConsoleAdd=\"False\" ownConsoleRemove=\"False\"
       />\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<activationTags>\n\t\t\t\t\t</activationTags>\n\t\t\t\t</_stringarrays>\n\t\t\t\t<_gameobject
-      prefab=\"1\" />\n\t\t\t\t<price buyPrice=\"20\" sellPrice=\"50\" sellSetter=\"0\"
+      prefab=\"2\" />\n\t\t\t\t<price buyPrice=\"20\" sellPrice=\"50\" sellSetter=\"0\"
       rounding=\"3\" >\n\t\t\t\t\t<_bool sellable=\"True\" />\n\t\t\t\t</price>\n\t\t\t\t<variables>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</variables>\n\t\t\t\t<classChange
       classID=\"0\" >\n\t\t\t\t\t<_bool forget=\"False\" learn=\"False\" reset=\"False\"
       rem=\"False\" add=\"False\" resetAtkAttrStart=\"False\" resetDefAttrStart=\"False\"
@@ -1886,8 +1953,13 @@ MonoBehaviour:
       attribute=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t<_bool setAttribute=\"False\" />\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t<1
       attribute=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t<_bool setAttribute=\"False\" />\n\t\t\t\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t\t\t</attackAttribute>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</consume>\n\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t</effect>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</targetChange>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<items>\n\t\t\t\t\t</items>\n\t\t\t\t\t<animation>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_float
       chance=\"100\" />\n\t\t\t\t\t\t\t<_bool field=\"False\" turnBased=\"True\" activeTime=\"True\"
-      realTime=\"True\" phase=\"True\" setPrefabs=\"False\" setAudioClips=\"False\"
-      />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</animation>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Magic
+      realTime=\"True\" phase=\"True\" setPrefabs=\"True\" setAudioClips=\"False\"
+      />\n\t\t\t\t\t\t\t<_eventasset evt=\"2\" />\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<prefab>\n\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</prefab>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1>\n\t\t\t\t\t\t\t<_float
+      chance=\"100\" />\n\t\t\t\t\t\t\t<_bool field=\"False\" turnBased=\"True\" activeTime=\"True\"
+      realTime=\"True\" phase=\"True\" setPrefabs=\"True\" setAudioClips=\"True\"
+      />\n\t\t\t\t\t\t\t<_eventasset evt=\"3\" />\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<prefab>\n\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t<_gameobject
+      prefab=\"3\" />\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</prefab>\n\t\t\t\t\t\t\t\t<audioClip>\n\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t<_audioclip
+      clip=\"1\" />\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</audioClip>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</animation>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Magic
       Potion]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t\t<2
       itemType=\"0\" quantityLimit=\"99\" useableIn=\"2\" selectionID=\"0\" itemAbility=\"0\"
       learnAbilityID=\"0\" useAbilityID=\"0\" abilityLevel=\"1\" recipeID=\"0\" logTextID=\"0\"
@@ -1897,9 +1969,9 @@ MonoBehaviour:
       ownSelection=\"False\" abilityShowConsole=\"True\" addItems=\"False\" addRandomItem=\"False\"
       itemsShowConsole=\"True\" learnRecipe=\"False\" recipeShowConsole=\"True\" learnLog=\"False\"
       completeLog=\"False\" logShowConsole=\"True\" callGlobalEvent=\"False\" changeClass=\"False\"
-      animate=\"False\" ownConsoleAction=\"False\" ownConsoleAdd=\"False\" ownConsoleRemove=\"False\"
+      animate=\"True\" ownConsoleAction=\"False\" ownConsoleAdd=\"False\" ownConsoleRemove=\"False\"
       />\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<activationTags>\n\t\t\t\t\t</activationTags>\n\t\t\t\t</_stringarrays>\n\t\t\t\t<_gameobject
-      prefab=\"2\" />\n\t\t\t\t<price buyPrice=\"100\" sellPrice=\"50\" sellSetter=\"0\"
+      prefab=\"4\" />\n\t\t\t\t<price buyPrice=\"100\" sellPrice=\"50\" sellSetter=\"0\"
       rounding=\"3\" >\n\t\t\t\t\t<_bool sellable=\"True\" />\n\t\t\t\t</price>\n\t\t\t\t<variables>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</variables>\n\t\t\t\t<classChange
       classID=\"0\" >\n\t\t\t\t\t<_bool forget=\"False\" learn=\"False\" reset=\"False\"
       rem=\"False\" add=\"False\" resetAtkAttrStart=\"False\" resetDefAttrStart=\"False\"
@@ -1927,8 +1999,13 @@ MonoBehaviour:
       attribute=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t<_bool setAttribute=\"False\" />\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t<1
       attribute=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t<_bool setAttribute=\"False\" />\n\t\t\t\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t\t\t</attackAttribute>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t</consume>\n\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t</effect>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</targetChange>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<items>\n\t\t\t\t\t</items>\n\t\t\t\t\t<animation>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_float
       chance=\"100\" />\n\t\t\t\t\t\t\t<_bool field=\"False\" turnBased=\"True\" activeTime=\"True\"
-      realTime=\"True\" phase=\"True\" setPrefabs=\"False\" setAudioClips=\"False\"
-      />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</animation>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Revive
+      realTime=\"True\" phase=\"True\" setPrefabs=\"True\" setAudioClips=\"False\"
+      />\n\t\t\t\t\t\t\t<_eventasset evt=\"4\" />\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<prefab>\n\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</prefab>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1>\n\t\t\t\t\t\t\t<_float
+      chance=\"100\" />\n\t\t\t\t\t\t\t<_bool field=\"False\" turnBased=\"True\" activeTime=\"True\"
+      realTime=\"True\" phase=\"True\" setPrefabs=\"True\" setAudioClips=\"True\"
+      />\n\t\t\t\t\t\t\t<_eventasset evt=\"5\" />\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<prefab>\n\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t<_gameobject
+      prefab=\"5\" />\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</prefab>\n\t\t\t\t\t\t\t\t<audioClip>\n\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t<_audioclip
+      clip=\"2\" />\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</audioClip>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</animation>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Revive
       Potion]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</2>\n\t\t\t<3
       itemType=\"0\" quantityLimit=\"99\" useableIn=\"2\" selectionID=\"0\" itemAbility=\"0\"
       learnAbilityID=\"0\" useAbilityID=\"0\" abilityLevel=\"1\" recipeID=\"0\" logTextID=\"0\"
@@ -1938,9 +2015,9 @@ MonoBehaviour:
       ownSelection=\"False\" abilityShowConsole=\"True\" addItems=\"False\" addRandomItem=\"False\"
       itemsShowConsole=\"True\" learnRecipe=\"False\" recipeShowConsole=\"True\" learnLog=\"False\"
       completeLog=\"False\" logShowConsole=\"True\" callGlobalEvent=\"False\" changeClass=\"False\"
-      animate=\"False\" ownConsoleAction=\"False\" ownConsoleAdd=\"False\" ownConsoleRemove=\"False\"
+      animate=\"True\" ownConsoleAction=\"False\" ownConsoleAdd=\"False\" ownConsoleRemove=\"False\"
       />\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<activationTags>\n\t\t\t\t\t</activationTags>\n\t\t\t\t</_stringarrays>\n\t\t\t\t<_gameobject
-      prefab=\"3\" />\n\t\t\t\t<price buyPrice=\"25\" sellPrice=\"50\" sellSetter=\"0\"
+      prefab=\"6\" />\n\t\t\t\t<price buyPrice=\"25\" sellPrice=\"50\" sellSetter=\"0\"
       rounding=\"3\" >\n\t\t\t\t\t<_bool sellable=\"True\" />\n\t\t\t\t</price>\n\t\t\t\t<variables>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</variables>\n\t\t\t\t<classChange
       classID=\"0\" >\n\t\t\t\t\t<_bool forget=\"False\" learn=\"False\" reset=\"False\"
       rem=\"False\" add=\"False\" resetAtkAttrStart=\"False\" resetDefAttrStart=\"False\"
@@ -1962,7 +2039,12 @@ MonoBehaviour:
       />\n\t\t\t\t\t\t\t</4>\n\t\t\t\t\t\t</effect>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</targetChange>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<items>\n\t\t\t\t\t</items>\n\t\t\t\t\t<animation>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_float
       chance=\"100\" />\n\t\t\t\t\t\t\t<_bool field=\"False\" turnBased=\"True\" activeTime=\"True\"
       realTime=\"True\" phase=\"True\" setPrefabs=\"False\" setAudioClips=\"False\"
-      />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</animation>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Cure
+      />\n\t\t\t\t\t\t\t<_eventasset evt=\"6\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1>\n\t\t\t\t\t\t\t<_float
+      chance=\"100\" />\n\t\t\t\t\t\t\t<_bool field=\"False\" turnBased=\"True\" activeTime=\"True\"
+      realTime=\"True\" phase=\"True\" setPrefabs=\"True\" setAudioClips=\"True\"
+      />\n\t\t\t\t\t\t\t<_eventasset evt=\"7\" />\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<prefab>\n\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t<_gameobject
+      prefab=\"7\" />\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</prefab>\n\t\t\t\t\t\t\t\t<audioClip>\n\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t<_audioclip
+      clip=\"3\" />\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</audioClip>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</animation>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Cure
       Potion]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</3>\n\t\t\t<4
       itemType=\"1\" quantityLimit=\"99\" useableIn=\"1\" selectionID=\"0\" itemAbility=\"0\"
       learnAbilityID=\"0\" useAbilityID=\"0\" abilityLevel=\"1\" recipeID=\"0\" logTextID=\"0\"
@@ -1972,9 +2054,9 @@ MonoBehaviour:
       ownSelection=\"False\" abilityShowConsole=\"True\" addItems=\"False\" addRandomItem=\"False\"
       itemsShowConsole=\"True\" learnRecipe=\"False\" recipeShowConsole=\"True\" learnLog=\"False\"
       completeLog=\"False\" logShowConsole=\"True\" callGlobalEvent=\"False\" changeClass=\"False\"
-      animate=\"False\" ownConsoleAction=\"False\" ownConsoleAdd=\"False\" ownConsoleRemove=\"False\"
+      animate=\"True\" ownConsoleAction=\"False\" ownConsoleAdd=\"False\" ownConsoleRemove=\"False\"
       />\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<activationTags>\n\t\t\t\t\t</activationTags>\n\t\t\t\t</_stringarrays>\n\t\t\t\t<_gameobject
-      prefab=\"4\" />\n\t\t\t\t<price buyPrice=\"100\" sellPrice=\"50\" sellSetter=\"0\"
+      prefab=\"8\" />\n\t\t\t\t<price buyPrice=\"100\" sellPrice=\"50\" sellSetter=\"0\"
       rounding=\"3\" >\n\t\t\t\t\t<_bool sellable=\"True\" />\n\t\t\t\t</price>\n\t\t\t\t<variables>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</variables>\n\t\t\t\t<classChange
       classID=\"0\" >\n\t\t\t\t\t<_bool forget=\"False\" learn=\"False\" reset=\"False\"
       rem=\"False\" add=\"False\" resetAtkAttrStart=\"False\" resetDefAttrStart=\"False\"
@@ -1989,7 +2071,12 @@ MonoBehaviour:
       useHitChance=\"False\" />\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</effect>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</targetChange>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<items>\n\t\t\t\t\t</items>\n\t\t\t\t\t<animation>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_float
       chance=\"100\" />\n\t\t\t\t\t\t\t<_bool field=\"False\" turnBased=\"True\" activeTime=\"True\"
       realTime=\"True\" phase=\"True\" setPrefabs=\"False\" setAudioClips=\"False\"
-      />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</animation>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Fire
+      />\n\t\t\t\t\t\t\t<_eventasset evt=\"8\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1>\n\t\t\t\t\t\t\t<_float
+      chance=\"100\" />\n\t\t\t\t\t\t\t<_bool field=\"False\" turnBased=\"True\" activeTime=\"True\"
+      realTime=\"True\" phase=\"True\" setPrefabs=\"True\" setAudioClips=\"True\"
+      />\n\t\t\t\t\t\t\t<_eventasset evt=\"9\" />\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<prefab>\n\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t<_gameobject
+      prefab=\"9\" />\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</prefab>\n\t\t\t\t\t\t\t\t<audioClip>\n\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t<_audioclip
+      clip=\"4\" />\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</audioClip>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</animation>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Fire
       Scroll]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</4>\n\t\t\t<5
       itemType=\"1\" quantityLimit=\"99\" useableIn=\"1\" selectionID=\"0\" itemAbility=\"0\"
       learnAbilityID=\"0\" useAbilityID=\"0\" abilityLevel=\"1\" recipeID=\"0\" logTextID=\"0\"
@@ -2001,7 +2088,7 @@ MonoBehaviour:
       completeLog=\"False\" logShowConsole=\"True\" callGlobalEvent=\"False\" changeClass=\"False\"
       animate=\"False\" ownConsoleAction=\"False\" ownConsoleAdd=\"False\" ownConsoleRemove=\"False\"
       />\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<activationTags>\n\t\t\t\t\t</activationTags>\n\t\t\t\t</_stringarrays>\n\t\t\t\t<_gameobject
-      prefab=\"5\" />\n\t\t\t\t<price buyPrice=\"100\" sellPrice=\"50\" sellSetter=\"0\"
+      prefab=\"10\" />\n\t\t\t\t<price buyPrice=\"100\" sellPrice=\"50\" sellSetter=\"0\"
       rounding=\"3\" >\n\t\t\t\t\t<_bool sellable=\"True\" />\n\t\t\t\t</price>\n\t\t\t\t<variables>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</variables>\n\t\t\t\t<classChange
       classID=\"0\" >\n\t\t\t\t\t<_bool forget=\"False\" learn=\"False\" reset=\"False\"
       rem=\"False\" add=\"False\" resetAtkAttrStart=\"False\" resetDefAttrStart=\"False\"
@@ -2034,7 +2121,7 @@ MonoBehaviour:
       completeLog=\"False\" logShowConsole=\"True\" callGlobalEvent=\"False\" changeClass=\"False\"
       animate=\"False\" ownConsoleAction=\"False\" ownConsoleAdd=\"False\" ownConsoleRemove=\"False\"
       />\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<activationTags>\n\t\t\t\t\t</activationTags>\n\t\t\t\t</_stringarrays>\n\t\t\t\t<_gameobject
-      prefab=\"6\" />\n\t\t\t\t<price buyPrice=\"1000\" sellPrice=\"50\" sellSetter=\"0\"
+      prefab=\"11\" />\n\t\t\t\t<price buyPrice=\"1000\" sellPrice=\"50\" sellSetter=\"0\"
       rounding=\"3\" >\n\t\t\t\t\t<_bool sellable=\"True\" />\n\t\t\t\t</price>\n\t\t\t\t<variables>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</variables>\n\t\t\t\t<classChange
       classID=\"0\" >\n\t\t\t\t\t<_bool forget=\"False\" learn=\"False\" reset=\"False\"
       rem=\"False\" add=\"False\" resetAtkAttrStart=\"False\" resetDefAttrStart=\"False\"
@@ -2059,7 +2146,7 @@ MonoBehaviour:
       completeLog=\"False\" logShowConsole=\"True\" callGlobalEvent=\"False\" changeClass=\"False\"
       animate=\"False\" ownConsoleAction=\"False\" ownConsoleAdd=\"False\" ownConsoleRemove=\"False\"
       />\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<activationTags>\n\t\t\t\t\t</activationTags>\n\t\t\t\t</_stringarrays>\n\t\t\t\t<_gameobject
-      prefab=\"7\" />\n\t\t\t\t<price buyPrice=\"5000\" sellPrice=\"50\" sellSetter=\"0\"
+      prefab=\"12\" />\n\t\t\t\t<price buyPrice=\"5000\" sellPrice=\"50\" sellSetter=\"0\"
       rounding=\"3\" >\n\t\t\t\t\t<_bool sellable=\"True\" />\n\t\t\t\t</price>\n\t\t\t\t<variables>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</variables>\n\t\t\t\t<classChange
       classID=\"0\" >\n\t\t\t\t\t<_bool forget=\"False\" learn=\"False\" reset=\"False\"
       rem=\"False\" add=\"False\" resetAtkAttrStart=\"False\" resetDefAttrStart=\"False\"
@@ -2076,18 +2163,38 @@ MonoBehaviour:
       of Immunity]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</7>\n\t\t</data>\n\t</_subarrays>\n</items>\n"
     lookUp:
       textures: []
-      audioClips: []
+      audioClips:
+      - {fileID: 8300000, guid: 268efed7c9e40fc4087af61f1e134966, type: 3}
+      - {fileID: 8300000, guid: 268efed7c9e40fc4087af61f1e134966, type: 3}
+      - {fileID: 8300000, guid: 268efed7c9e40fc4087af61f1e134966, type: 3}
+      - {fileID: 8300000, guid: 268efed7c9e40fc4087af61f1e134966, type: 3}
+      - {fileID: 8300000, guid: 268efed7c9e40fc4087af61f1e134966, type: 3}
       gameObjects:
       - {fileID: 100000, guid: df41354b81615c348ac173bd3d0d4119, type: 2}
+      - {fileID: 100000, guid: cbe6a9344764df34896320ea531b008e, type: 2}
       - {fileID: 100000, guid: df41354b81615c348ac173bd3d0d4119, type: 2}
+      - {fileID: 100000, guid: cbe6a9344764df34896320ea531b008e, type: 2}
       - {fileID: 100000, guid: df41354b81615c348ac173bd3d0d4119, type: 2}
+      - {fileID: 100000, guid: 5692846c5ce8f4ee08ef64bec4aad0bd, type: 2}
       - {fileID: 100000, guid: df41354b81615c348ac173bd3d0d4119, type: 2}
+      - {fileID: 100000, guid: a28540d6bcf674c1bb3dd7af7de640fc, type: 2}
       - {fileID: 100000, guid: df41354b81615c348ac173bd3d0d4119, type: 2}
+      - {fileID: 100002, guid: 2acf9c8e812eff6459715d2b3dce2c96, type: 2}
       - {fileID: 100000, guid: df41354b81615c348ac173bd3d0d4119, type: 2}
       - {fileID: 100000, guid: df41354b81615c348ac173bd3d0d4119, type: 2}
       - {fileID: 100000, guid: df41354b81615c348ac173bd3d0d4119, type: 2}
       guiSkins: []
-      eventAssets: []
+      eventAssets:
+      - {fileID: 11400000, guid: e2c297035d9de1d47bdf0a7a5749e4ed, type: 2}
+      - {fileID: 11400000, guid: 95a6e246e07a6ca4eb377ce8cf4b5733, type: 2}
+      - {fileID: 11400000, guid: e2c297035d9de1d47bdf0a7a5749e4ed, type: 2}
+      - {fileID: 11400000, guid: 95a6e246e07a6ca4eb377ce8cf4b5733, type: 2}
+      - {fileID: 11400000, guid: e2c297035d9de1d47bdf0a7a5749e4ed, type: 2}
+      - {fileID: 11400000, guid: 95a6e246e07a6ca4eb377ce8cf4b5733, type: 2}
+      - {fileID: 11400000, guid: e2c297035d9de1d47bdf0a7a5749e4ed, type: 2}
+      - {fileID: 11400000, guid: 95a6e246e07a6ca4eb377ce8cf4b5733, type: 2}
+      - {fileID: 11400000, guid: e2c297035d9de1d47bdf0a7a5749e4ed, type: 2}
+      - {fileID: 11400000, guid: 95a6e246e07a6ca4eb377ce8cf4b5733, type: 2}
     encrypted: 0
   - name: equipmentParts
     xmlData: "<equipmentParts>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0>\n\t\t\t\t<_bool
@@ -2915,9 +3022,10 @@ MonoBehaviour:
       activeCommand=\"False\" dynamicCombat=\"False\" canAutoAttack=\"True\" blockAutoAttackMenu=\"False\"
       playerBattleMenu=\"False\" cameraBattleMenu=\"False\" allowMoveAI=\"False\"
       gainsCollectImmediately=\"False\" gainsShowText=\"True\" gainsDropItems=\"False\"
-      gainsDropMoney=\"False\" />\n\t\t<moveAIRange>\n\t\t\t<_float range=\"50\" threshold=\"0\"
-      />\n\t\t\t<_bool ignoreYDistance=\"True\" ignoreRadius=\"False\" />\n\t\t</moveAIRange>\n\t\t<bonuses>\n\t\t\t<_bool
-      reviveAfterBattle=\"False\" />\n\t\t\t<_subarrays>\n\t\t\t\t<startSetter>\n\t\t\t\t</startSetter>\n\t\t\t\t<turnSetter>\n\t\t\t\t</turnSetter>\n\t\t\t\t<endSetter>\n\t\t\t\t</endSetter>\n\t\t\t\t<reviveSetter>\n\t\t\t\t</reviveSetter>\n\t\t\t</_subarrays>\n\t\t</bonuses>\n\t</turnBased>\n\t<activeTime
+      gainsDropMoney=\"False\" />\n\t\t<_eventasset startEvent=\"0\" />\n\t\t<moveAIRange>\n\t\t\t<_float
+      range=\"50\" threshold=\"0\" />\n\t\t\t<_bool ignoreYDistance=\"True\" ignoreRadius=\"False\"
+      />\n\t\t</moveAIRange>\n\t\t<bonuses>\n\t\t\t<_bool reviveAfterBattle=\"False\"
+      />\n\t\t\t<_subarrays>\n\t\t\t\t<startSetter>\n\t\t\t\t</startSetter>\n\t\t\t\t<turnSetter>\n\t\t\t\t</turnSetter>\n\t\t\t\t<endSetter>\n\t\t\t\t</endSetter>\n\t\t\t\t<reviveSetter>\n\t\t\t\t</reviveSetter>\n\t\t\t</_subarrays>\n\t\t</bonuses>\n\t</turnBased>\n\t<activeTime
       timeFormulaID=\"0\" startFormulaID=\"0\" useTimebarAction=\"0\" playerControl=\"0\"
       cameraControl=\"0\" >\n\t\t<_float menuBorder=\"1000\" actionBorder=\"1000\"
       maxTimebar=\"1000\" tickInterval=\"0.05\" itemTimebarUse=\"1000\" defendTimebarUse=\"1000\"
@@ -2958,7 +3066,8 @@ MonoBehaviour:
       audioClips: []
       gameObjects: []
       guiSkins: []
-      eventAssets: []
+      eventAssets:
+      - {fileID: 11400000, guid: 40fed5e701585e84886f4e34729de51c, type: 2}
     encrypted: 0
   - name: battleSpots
     xmlData: "<battleSpots layerMask=\"1\" >\n\t<_float distance=\"100\" />\n\t<_bool

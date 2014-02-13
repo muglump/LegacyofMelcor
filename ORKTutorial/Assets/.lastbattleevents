@@ -1,3 +1,7 @@
+Assets/cast.asset
+Assets/use.asset
+Assets/calculateEffectTarget2.asset
+Assets/calculateEffectTarget.asset
 Assets/attack.asset
 Assets/runToBase.asset
 Assets/runToTarget.asset
