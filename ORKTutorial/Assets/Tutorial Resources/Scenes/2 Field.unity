@@ -576,81 +576,33 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
---- !u!1 &1044742917
-=======
 --- !u!1 &1191308336
->>>>>>> e0f36500f9261cd60efb8dceadbdd0e2b09b53ec
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-<<<<<<< HEAD
-  - 4: {fileID: 1044742921}
-  - 33: {fileID: 1044742920}
-  - 65: {fileID: 1044742919}
-  - 114: {fileID: 1044742918}
-  m_Layer: 0
-  m_Name: 'Area: Death Valley'
-=======
   - 4: {fileID: 1191308339}
   - 114: {fileID: 1191308338}
   - 135: {fileID: 1191308337}
   m_Layer: 2
   m_Name: Battle 0
->>>>>>> e0f36500f9261cd60efb8dceadbdd0e2b09b53ec
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
---- !u!114 &1044742918
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1044742917}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -151191008, guid: f5c55b3678e89c6409bf2371aaef7c05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  areaID: 7
-  show: 1
-  autoName: 1
---- !u!65 &1044742919
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1044742917}
-=======
 --- !u!135 &1191308337
 SphereCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1191308336}
->>>>>>> e0f36500f9261cd60efb8dceadbdd0e2b09b53ec
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-<<<<<<< HEAD
-  m_Size: {x: 100, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!33 &1044742920
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1044742917}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1044742921
-=======
   m_Radius: 5
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1191308338
@@ -743,22 +695,14 @@ MonoBehaviour:
   escapeEventAsset: {fileID: 0}
   defeatEventAsset: {fileID: 0}
 --- !u!4 &1191308339
->>>>>>> e0f36500f9261cd60efb8dceadbdd0e2b09b53ec
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1044742917}
-  m_LocalRotation: {x: 0, y: .707106829, z: 0, w: .707106829}
-  m_LocalPosition: {x: 341.825104, y: 37.5695992, z: 480.936951}
-  m_LocalScale: {x: 1, y: 20, z: 100}
-=======
   m_GameObject: {fileID: 1191308336}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 315.184875, y: 33.2358017, z: 429.503571}
   m_LocalScale: {x: 1, y: 1, z: 1}
->>>>>>> e0f36500f9261cd60efb8dceadbdd0e2b09b53ec
   m_Children: []
   m_Father: {fileID: 0}
 --- !u!1 &1917738616
