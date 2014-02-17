@@ -17,3 +17,9 @@ EditorBuildSettings:
     path: Assets/Tutorial Resources/Scenes/4 Battle Arena.unity
   - enabled: 0
     path: Assets/Tutorial Resources/Scenes/1 Town.unity
+  - enabled: 0
+    path: Assets/Tutorial Resources/Scenes/0 Main Menu.unity
+  - enabled: 1
+    path: Assets/Tutorial Resources/Scenes/Dungeon_Start.unity
+  - enabled: 1
+    path: Assets/Tutorial Resources/Scenes/Dungeon_end.unity

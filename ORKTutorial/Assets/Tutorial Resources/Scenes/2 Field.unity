@@ -280,6 +280,127 @@ NavMeshSettings:
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
   m_NavMesh: {fileID: 0}
+--- !u!1 &106406965
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 106406968}
+  - 114: {fileID: 106406967}
+  - 135: {fileID: 106406966}
+  m_Layer: 2
+  m_Name: Scene Changer 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!135 &106406966
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 106406965}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &106406967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 106406965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1042612145, guid: f5c55b3678e89c6409bf2371aaef7c05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useSceneID: 1
+  sceneID: 1
+  autoDestroy: 1
+  repeatDestroy: 0
+  destroyCheckTime: 1
+  checkObjectVariables: 0
+  variableCondition:
+    needed: 0
+    gameVariable: []
+  setObjectVariables: 0
+  variableSetter:
+    gameVariable: []
+  startType: 2
+  customType: 
+  autoStartAfter: 0
+  allowClick: 1
+  overrideClickDistance: 0
+  maxClickDistance: 3
+  keyToPress: 0
+  keyPressInTrigger: 0
+  dropItem:
+    type: 0
+    id: 0
+    level: 1
+    quantity: 1
+    chance: 100
+  consumeDrop: 0
+  useFront: 1
+  useBack: 1
+  useLeft: 1
+  useRight: 1
+  target:
+  - isVar: 0
+    sceneName: Dungeon_Start
+    type: 0
+    position: {x: 0, y: 0, z: 0}
+    yRot: 0
+    spawnID: 0
+    variableKey: 
+  audioClip: {fileID: 0}
+  volume: 1
+  waitForAudio: 0
+  clear: 0
+  clearDrops: 0
+  clearCollects: 0
+  clearBattles: 0
+  clearPosition: 0
+  useFadeOut: 1
+  fadeOut:
+    time: .5
+    interpolation: 0
+    alpha: 1
+    red: 0
+    green: 0
+    blue: 0
+    fromCurrent: 0
+    startColor: {r: 0, g: 0, b: 0, a: 0}
+    endColor: {r: 0, g: 0, b: 0, a: 1}
+  waitFaidIn: 0
+  useFadeIn: 1
+  fadeIn:
+    time: .5
+    interpolation: 0
+    alpha: 1
+    red: 0
+    green: 0
+    blue: 0
+    fromCurrent: 0
+    startColor: {r: 0, g: 0, b: 0, a: 1}
+    endColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!4 &106406968
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 106406965}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 65.3730392, y: 1.37177658, z: 8.16138077}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
 --- !u!1 &201361520
 GameObject:
   m_ObjectHideFlags: 0
@@ -334,46 +455,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!1001 &209684458
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 400000, guid: df41354b81615c348ac173bd3d0d4119, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 311.78656
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: df41354b81615c348ac173bd3d0d4119, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 35.1373978
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: df41354b81615c348ac173bd3d0d4119, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 410.856384
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: df41354b81615c348ac173bd3d0d4119, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: df41354b81615c348ac173bd3d0d4119, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: df41354b81615c348ac173bd3d0d4119, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: df41354b81615c348ac173bd3d0d4119, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: df41354b81615c348ac173bd3d0d4119, type: 2}
-  m_RootGameObject: {fileID: 2043913223}
-  m_IsPrefabParent: 0
-  m_IsExploded: 1
 --- !u!1 &462378197
 GameObject:
   m_ObjectHideFlags: 0
@@ -492,6 +573,264 @@ Transform:
   m_GameObject: {fileID: 508287692}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: -4.37113883e-08}
   m_LocalPosition: {x: 326.222595, y: 34.2120209, z: 482.10672}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!1 &621117920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 621117923}
+  - 114: {fileID: 621117922}
+  - 135: {fileID: 621117921}
+  m_Layer: 2
+  m_Name: Battle 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!135 &621117921
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 621117920}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &621117922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 621117920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1828747119, guid: f5c55b3678e89c6409bf2371aaef7c05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useSceneID: 1
+  sceneID: 4
+  autoDestroy: 1
+  repeatDestroy: 0
+  destroyCheckTime: 1
+  checkObjectVariables: 0
+  variableCondition:
+    needed: 0
+    gameVariable: []
+  setObjectVariables: 0
+  variableSetter:
+    gameVariable: []
+  startType: 2
+  customType: 
+  autoStartAfter: 0
+  allowClick: 1
+  overrideClickDistance: 0
+  maxClickDistance: 3
+  keyToPress: 0
+  keyPressInTrigger: 0
+  dropItem:
+    type: 0
+    id: 0
+    level: 1
+    quantity: 1
+    chance: 100
+  consumeDrop: 0
+  useFront: 1
+  useBack: 1
+  useLeft: 1
+  useRight: 1
+  battleType: 0
+  canEscape: 1
+  setLooks: 1
+  allGroups: 0
+  combatant:
+  - factionID: 1
+    useGroup: 1
+    member:
+      id: 0
+      levelInit: 0
+      levelOnlyBattle: 0
+      levelMinOffset: -5
+      levelMaxOffset: 5
+      levelMinRandom: 1
+      levelMaxRandom: 99
+      levelKey: 
+      classInit: 0
+      classOnlyBattle: 0
+      classMinOffset: -5
+      classMaxOffset: 5
+      classMinRandom: 1
+      classMaxRandom: 99
+      classKey: 
+    id: 8
+  ownSpots: 0
+  playerSpot: []
+  playerSpotPA: []
+  playerSpotEA: []
+  allySpot: []
+  allySpotPA: []
+  allySpotEA: []
+  enemySpot: []
+  enemySpotPA: []
+  enemySpotEA: []
+  enablePA: 1
+  overridePAChance: 0
+  paChance: 0
+  enableEA: 1
+  overrideEAChance: 0
+  eaChance: 0
+  itemGains: []
+  useDefaultStart: 1
+  startEventAsset: {fileID: 0}
+  useDefaultEnd: 1
+  victoryEventAsset: {fileID: 0}
+  escapeEventAsset: {fileID: 0}
+  defeatEventAsset: {fileID: 0}
+--- !u!4 &621117923
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 621117920}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 132.766632, y: 3.36790943, z: 369.09137}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!1 &682988215
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 682988218}
+  - 114: {fileID: 682988217}
+  - 135: {fileID: 682988216}
+  m_Layer: 2
+  m_Name: Battle 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!135 &682988216
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 682988215}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &682988217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 682988215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1828747119, guid: f5c55b3678e89c6409bf2371aaef7c05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useSceneID: 1
+  sceneID: 2
+  autoDestroy: 1
+  repeatDestroy: 0
+  destroyCheckTime: 1
+  checkObjectVariables: 0
+  variableCondition:
+    needed: 0
+    gameVariable: []
+  setObjectVariables: 0
+  variableSetter:
+    gameVariable: []
+  startType: 2
+  customType: 
+  autoStartAfter: 0
+  allowClick: 1
+  overrideClickDistance: 0
+  maxClickDistance: 3
+  keyToPress: 0
+  keyPressInTrigger: 0
+  dropItem:
+    type: 0
+    id: 0
+    level: 1
+    quantity: 1
+    chance: 100
+  consumeDrop: 0
+  useFront: 1
+  useBack: 1
+  useLeft: 1
+  useRight: 1
+  battleType: 0
+  canEscape: 1
+  setLooks: 1
+  allGroups: 0
+  combatant:
+  - factionID: 1
+    useGroup: 1
+    member:
+      id: 0
+      levelInit: 0
+      levelOnlyBattle: 0
+      levelMinOffset: -5
+      levelMaxOffset: 5
+      levelMinRandom: 1
+      levelMaxRandom: 99
+      levelKey: 
+      classInit: 0
+      classOnlyBattle: 0
+      classMinOffset: -5
+      classMaxOffset: 5
+      classMinRandom: 1
+      classMaxRandom: 99
+      classKey: 
+    id: 8
+  ownSpots: 0
+  playerSpot: []
+  playerSpotPA: []
+  playerSpotEA: []
+  allySpot: []
+  allySpotPA: []
+  allySpotEA: []
+  enemySpot: []
+  enemySpotPA: []
+  enemySpotEA: []
+  enablePA: 1
+  overridePAChance: 0
+  paChance: 0
+  enableEA: 1
+  overrideEAChance: 0
+  eaChance: 0
+  itemGains: []
+  useDefaultStart: 1
+  startEventAsset: {fileID: 0}
+  useDefaultEnd: 1
+  victoryEventAsset: {fileID: 0}
+  escapeEventAsset: {fileID: 0}
+  defeatEventAsset: {fileID: 0}
+--- !u!4 &682988218
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 682988215}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 308.753723, y: 23.9599991, z: 253.272339}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -616,16 +955,145 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!1 &897019545
+--- !u!1 &913088284
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 897019548}
-  - 114: {fileID: 897019547}
-  - 135: {fileID: 897019546}
+  - 4: {fileID: 913088287}
+  - 114: {fileID: 913088286}
+  - 135: {fileID: 913088285}
+  m_Layer: 2
+  m_Name: Battle 0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!135 &913088285
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 913088284}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &913088286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 913088284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1828747119, guid: f5c55b3678e89c6409bf2371aaef7c05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useSceneID: 1
+  sceneID: 0
+  autoDestroy: 1
+  repeatDestroy: 0
+  destroyCheckTime: 1
+  checkObjectVariables: 0
+  variableCondition:
+    needed: 0
+    gameVariable: []
+  setObjectVariables: 0
+  variableSetter:
+    gameVariable: []
+  startType: 2
+  customType: 
+  autoStartAfter: 0
+  allowClick: 1
+  overrideClickDistance: 0
+  maxClickDistance: 3
+  keyToPress: 0
+  keyPressInTrigger: 0
+  dropItem:
+    type: 0
+    id: 0
+    level: 1
+    quantity: 1
+    chance: 100
+  consumeDrop: 0
+  useFront: 1
+  useBack: 1
+  useLeft: 1
+  useRight: 1
+  battleType: 0
+  canEscape: 1
+  setLooks: 1
+  allGroups: 0
+  combatant:
+  - factionID: 1
+    useGroup: 1
+    member:
+      id: 0
+      levelInit: 0
+      levelOnlyBattle: 0
+      levelMinOffset: -5
+      levelMaxOffset: 5
+      levelMinRandom: 1
+      levelMaxRandom: 99
+      levelKey: 
+      classInit: 0
+      classOnlyBattle: 0
+      classMinOffset: -5
+      classMaxOffset: 5
+      classMinRandom: 1
+      classMaxRandom: 99
+      classKey: 
+    id: 3
+  ownSpots: 0
+  playerSpot: []
+  playerSpotPA: []
+  playerSpotEA: []
+  allySpot: []
+  allySpotPA: []
+  allySpotEA: []
+  enemySpot: []
+  enemySpotPA: []
+  enemySpotEA: []
+  enablePA: 1
+  overridePAChance: 0
+  paChance: 0
+  enableEA: 1
+  overrideEAChance: 0
+  eaChance: 0
+  itemGains: []
+  useDefaultStart: 1
+  startEventAsset: {fileID: 0}
+  useDefaultEnd: 1
+  victoryEventAsset: {fileID: 0}
+  escapeEventAsset: {fileID: 0}
+  defeatEventAsset: {fileID: 0}
+--- !u!4 &913088287
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 913088284}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 311.792328, y: 34.2991562, z: 420.396301}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!1 &948656752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 948656755}
+  - 114: {fileID: 948656754}
+  - 135: {fileID: 948656753}
   m_Layer: 2
   m_Name: Battle 1
   m_TagString: Untagged
@@ -633,24 +1101,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!135 &897019546
+--- !u!135 &948656753
 SphereCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 897019545}
+  m_GameObject: {fileID: 948656752}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &897019547
+--- !u!114 &948656754
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 897019545}
+  m_GameObject: {fileID: 948656752}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1828747119, guid: f5c55b3678e89c6409bf2371aaef7c05, type: 3}
@@ -689,7 +1157,7 @@ MonoBehaviour:
   useRight: 1
   battleType: 0
   canEscape: 1
-  setLooks: 0
+  setLooks: 1
   allGroups: 0
   combatant:
   - factionID: 1
@@ -710,7 +1178,7 @@ MonoBehaviour:
       classMinRandom: 1
       classMaxRandom: 99
       classKey: 
-    id: 6
+    id: 8
   ownSpots: 0
   playerSpot: []
   playerSpotPA: []
@@ -734,59 +1202,59 @@ MonoBehaviour:
   victoryEventAsset: {fileID: 0}
   escapeEventAsset: {fileID: 0}
   defeatEventAsset: {fileID: 0}
---- !u!4 &897019548
+--- !u!4 &948656755
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 897019545}
+  m_GameObject: {fileID: 948656752}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 322.274658, y: 33.2934799, z: 378.014771}
+  m_LocalPosition: {x: 229.808411, y: 9.64916801, z: 428.437225}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!1 &1191308336
+--- !u!1 &1064240016
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 1191308339}
-  - 114: {fileID: 1191308338}
-  - 135: {fileID: 1191308337}
+  - 4: {fileID: 1064240019}
+  - 114: {fileID: 1064240018}
+  - 135: {fileID: 1064240017}
   m_Layer: 2
-  m_Name: Battle 0
+  m_Name: Battle 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!135 &1191308337
+--- !u!135 &1064240017
 SphereCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1191308336}
+  m_GameObject: {fileID: 1064240016}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1191308338
+--- !u!114 &1064240018
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1191308336}
+  m_GameObject: {fileID: 1064240016}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1828747119, guid: f5c55b3678e89c6409bf2371aaef7c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   useSceneID: 1
-  sceneID: 0
+  sceneID: 3
   autoDestroy: 1
   repeatDestroy: 0
   destroyCheckTime: 1
@@ -817,14 +1285,14 @@ MonoBehaviour:
   useLeft: 1
   useRight: 1
   battleType: 0
-  canEscape: 0
+  canEscape: 1
   setLooks: 1
   allGroups: 0
   combatant:
-  - factionID: 1
-    useGroup: 0
+  - factionID: 0
+    useGroup: 1
     member:
-      id: 1
+      id: 0
       levelInit: 0
       levelOnlyBattle: 0
       levelMinOffset: -5
@@ -839,7 +1307,7 @@ MonoBehaviour:
       classMinRandom: 1
       classMaxRandom: 99
       classKey: 
-    id: 0
+    id: 8
   ownSpots: 0
   playerSpot: []
   playerSpotPA: []
@@ -863,14 +1331,143 @@ MonoBehaviour:
   victoryEventAsset: {fileID: 0}
   escapeEventAsset: {fileID: 0}
   defeatEventAsset: {fileID: 0}
---- !u!4 &1191308339
+--- !u!4 &1064240019
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1191308336}
+  m_GameObject: {fileID: 1064240016}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 315.184875, y: 33.2358017, z: 429.503571}
+  m_LocalPosition: {x: 235.024109, y: 10.005909, z: 195.661255}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!1 &1300843868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1300843871}
+  - 114: {fileID: 1300843870}
+  - 135: {fileID: 1300843869}
+  m_Layer: 2
+  m_Name: Battle 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!135 &1300843869
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1300843868}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1300843870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1300843868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1828747119, guid: f5c55b3678e89c6409bf2371aaef7c05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useSceneID: 1
+  sceneID: 5
+  autoDestroy: 1
+  repeatDestroy: 0
+  destroyCheckTime: 1
+  checkObjectVariables: 0
+  variableCondition:
+    needed: 0
+    gameVariable: []
+  setObjectVariables: 0
+  variableSetter:
+    gameVariable: []
+  startType: 2
+  customType: 
+  autoStartAfter: 0
+  allowClick: 1
+  overrideClickDistance: 0
+  maxClickDistance: 3
+  keyToPress: 0
+  keyPressInTrigger: 0
+  dropItem:
+    type: 0
+    id: 0
+    level: 1
+    quantity: 1
+    chance: 100
+  consumeDrop: 0
+  useFront: 1
+  useBack: 1
+  useLeft: 1
+  useRight: 1
+  battleType: 0
+  canEscape: 1
+  setLooks: 1
+  allGroups: 0
+  combatant:
+  - factionID: 1
+    useGroup: 1
+    member:
+      id: 0
+      levelInit: 0
+      levelOnlyBattle: 0
+      levelMinOffset: -5
+      levelMaxOffset: 5
+      levelMinRandom: 1
+      levelMaxRandom: 99
+      levelKey: 
+      classInit: 0
+      classOnlyBattle: 0
+      classMinOffset: -5
+      classMaxOffset: 5
+      classMinRandom: 1
+      classMaxRandom: 99
+      classKey: 
+    id: 9
+  ownSpots: 0
+  playerSpot: []
+  playerSpotPA: []
+  playerSpotEA: []
+  allySpot: []
+  allySpotPA: []
+  allySpotEA: []
+  enemySpot: []
+  enemySpotPA: []
+  enemySpotEA: []
+  enablePA: 1
+  overridePAChance: 0
+  paChance: 0
+  enableEA: 1
+  overrideEAChance: 0
+  eaChance: 0
+  itemGains: []
+  useDefaultStart: 1
+  startEventAsset: {fileID: 0}
+  useDefaultEnd: 1
+  victoryEventAsset: {fileID: 0}
+  escapeEventAsset: {fileID: 0}
+  defeatEventAsset: {fileID: 0}
+--- !u!4 &1300843871
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1300843868}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 113.361618, y: 4.14425278, z: 145.559006}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -925,187 +1522,6 @@ Transform:
   m_GameObject: {fileID: 1917738616}
   m_LocalRotation: {x: .424408942, y: .287056208, z: .42133373, w: .748300552}
   m_LocalPosition: {x: 1261.96045, y: -1827.61694, z: 1985.79663}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
---- !u!1 &2043913223
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: df41354b81615c348ac173bd3d0d4119, type: 2}
-  m_PrefabInternal: {fileID: 209684458}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 2043913230}
-  - 33: {fileID: 2043913229}
-  - 23: {fileID: 2043913228}
-  - 65: {fileID: 2043913227}
-  - 54: {fileID: 2043913226}
-  - 114: {fileID: 2043913225}
-  - 114: {fileID: 2043913224}
-  m_Layer: 0
-  m_Name: ItemPrefab
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2043913224
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2043913223}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 2088049802, guid: f5c55b3678e89c6409bf2371aaef7c05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  useSceneID: 1
-  sceneID: 0
-  autoDestroy: 1
-  repeatDestroy: 0
-  destroyCheckTime: 1
-  checkObjectVariables: 0
-  variableCondition:
-    needed: 0
-    gameVariable:
-    - key:
-        type: 0
-        value: BP_Quest
-      isValid: 1
-      type: 0
-      stringValue:
-        type: 0
-        value: search
-      floatCheck: 0
-      floatValue:
-        type: 0
-        name: 
-        isInt: 0
-        id: 0
-        offset: 0
-        value: 0
-        rounding: 0
-      vector3Check: 1
-      vector3Distance: 0
-  setObjectVariables: 0
-  variableSetter:
-    gameVariable: []
-  startType: 0
-  customType: 
-  autoStartAfter: 0
-  allowClick: 1
-  overrideClickDistance: 0
-  maxClickDistance: 3
-  keyToPress: 0
-  keyPressInTrigger: 0
-  dropItem:
-    type: 0
-    id: 0
-    level: 1
-    quantity: 1
-    chance: 100
-  consumeDrop: 0
-  useFront: 1
-  useBack: 1
-  useLeft: 1
-  useRight: 1
-  eventAsset: {fileID: 11400000, guid: bae7d67470469ac46b57a1d27cc0dfd0, type: 2}
-  interactionType: 2
-  repeatExecution: 0
-  deactivateAfter: 1
-  turnToEvent: 1
-  turnToPlayer: 0
-  actor:
-  - {fileID: 0}
-  waypoint: []
-  prefab: []
-  audioClip: []
-  timeBefore: 0
-  timeAfter: 0
---- !u!114 &2043913225
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2043913223}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 2066130486, guid: f5c55b3678e89c6409bf2371aaef7c05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  distance: 100
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  offset: {x: 0, y: 0, z: 0}
---- !u!54 &2043913226
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5400000, guid: df41354b81615c348ac173bd3d0d4119,
-    type: 2}
-  m_PrefabInternal: {fileID: 209684458}
-  m_GameObject: {fileID: 2043913223}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!65 &2043913227
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6500000, guid: df41354b81615c348ac173bd3d0d4119,
-    type: 2}
-  m_PrefabInternal: {fileID: 209684458}
-  m_GameObject: {fileID: 2043913223}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &2043913228
-Renderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: df41354b81615c348ac173bd3d0d4119,
-    type: 2}
-  m_PrefabInternal: {fileID: 209684458}
-  m_GameObject: {fileID: 2043913223}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
-  m_Materials:
-  - {fileID: 2100000, guid: 215977489d11178d11005b9844295342, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
---- !u!33 &2043913229
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: df41354b81615c348ac173bd3d0d4119,
-    type: 2}
-  m_PrefabInternal: {fileID: 209684458}
-  m_GameObject: {fileID: 2043913223}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &2043913230
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: df41354b81615c348ac173bd3d0d4119, type: 2}
-  m_PrefabInternal: {fileID: 209684458}
-  m_GameObject: {fileID: 2043913223}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 311.78656, y: 35.1373978, z: 410.856384}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

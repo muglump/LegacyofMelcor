@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 2/17/2014 11:18:51 AM
+  time: 2/17/2014 11:56:04 AM
   version: 2.0.0
   keys:
   - editorSettings
@@ -3190,12 +3190,12 @@ MonoBehaviour:
       levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
       classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
       classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t</member>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t</_subarrays>\n\t\t\t</2>\n\t\t\t<3>\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<money
-      0 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Fighterx2]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<member>\n\t\t\t\t\t\t<0
-      id=\"1\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      0 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Goblin]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<member>\n\t\t\t\t\t\t<0
+      id=\"4\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
       levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
       classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
       classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
-      id=\"1\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      id=\"4\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
       levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
       classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
       classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</member>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t</_subarrays>\n\t\t\t</3>\n\t\t\t<4>\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<money
@@ -3250,7 +3250,54 @@ MonoBehaviour:
       id=\"3\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
       levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
       classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
-      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t</member>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t</_subarrays>\n\t\t\t</7>\n\t\t</data>\n\t</_subarrays>\n</combatantGroups>\n"
+      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t</member>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t</_subarrays>\n\t\t\t</7>\n\t\t\t<8>\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<money
+      0 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Goblins]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<member>\n\t\t\t\t\t\t<0
+      id=\"4\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
+      classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
+      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
+      id=\"4\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
+      classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
+      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t\t<2
+      id=\"4\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
+      classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
+      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t\t<3
+      id=\"4\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
+      classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
+      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</3>\n\t\t\t\t\t</member>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t</_subarrays>\n\t\t\t</8>\n\t\t\t<9>\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<money
+      0 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Goblins
+      End]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<member>\n\t\t\t\t\t\t<0
+      id=\"4\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
+      classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
+      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
+      id=\"4\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
+      classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
+      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t\t<2
+      id=\"4\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
+      classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
+      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t\t<3
+      id=\"4\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
+      classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
+      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</3>\n\t\t\t\t\t\t<4
+      id=\"4\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
+      classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
+      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</4>\n\t\t\t\t\t\t<5
+      id=\"4\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
+      classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
+      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</5>\n\t\t\t\t\t\t<6
+      id=\"5\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
+      classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
+      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</6>\n\t\t\t\t\t</member>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t</_subarrays>\n\t\t\t</9>\n\t\t</data>\n\t</_subarrays>\n</combatantGroups>\n"
     lookUp:
       textures: []
       audioClips: []
