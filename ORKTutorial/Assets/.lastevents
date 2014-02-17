@@ -1,3 +1,12 @@
+Assets/bluePantsDialogue.asset
+Assets/bluePantsItem.asset
+Assets/startEvent.asset
+Assets/escape.asset
+Assets/defend.asset
+Assets/death.asset
+Assets/simpleDefeat.asset
+Assets/simpleEvent.asset
+Assets/simpleVictory.asset
 Assets/simpleStart.asset
 Assets/cast.asset
 Assets/use.asset
@@ -8,4 +17,3 @@ Assets/runToBase.asset
 Assets/runToTarget.asset
 Assets/notification1.asset
 Assets/Dialogue.asset
-Assets/startEvent.asset

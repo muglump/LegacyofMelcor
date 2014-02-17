@@ -178,6 +178,22 @@ GameObject:
 --- !u!1002 &100019
 EditorExtensionImpl:
   serializedVersion: 6
+--- !u!1 &100020
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400020}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Right Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1002 &100021
 EditorExtensionImpl:
   serializedVersion: 6
@@ -297,7 +313,8 @@ Transform:
   m_LocalRotation: {x: -.254091561, y: -.435170442, z: .510901332, w: .696451008}
   m_LocalPosition: {x: -.438112676, y: 4.3635815e-08, z: -.00640060706}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 400020}
   m_Father: {fileID: 400000}
 --- !u!1002 &400005
 EditorExtensionImpl:
@@ -407,6 +424,17 @@ Transform:
 --- !u!1002 &400019
 EditorExtensionImpl:
   serializedVersion: 6
+--- !u!4 &400020
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100020}
+  m_LocalRotation: {x: .5, y: -.5, z: .5, w: .5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400004}
 --- !u!1002 &400021
 EditorExtensionImpl:
   serializedVersion: 6
@@ -446,7 +474,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100026}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.73225212, y: -1.51662254, z: 12.3621826}
+  m_LocalPosition: {x: 305.218475, y: 38.3627357, z: 401.782654}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400028}
@@ -509,6 +537,38 @@ Animation:
 --- !u!1002 &11100001
 EditorExtensionImpl:
   serializedVersion: 6
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1342812535, guid: f5c55b3678e89c6409bf2371aaef7c05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partID: 1
+  setScale: 0
+  equipmentScale: {x: 1, y: 1, z: 1}
+  gameState:
+    inControl: 2
+    inMenu: 2
+    inShop: 2
+    inEvent: 2
+    inSceneChange: 2
+    inPause: 2
+    inBattle: 0
+    turnBased: 1
+    activeTime: 1
+    realTime: 1
+    phase: 1
+  checkObjectVariables: 0
+  variableCondition:
+    needed: 0
+    gameVariable: []
+  childName: []
+  linkTo: []
 --- !u!1002 &11400003
 EditorExtensionImpl:
   serializedVersion: 6
