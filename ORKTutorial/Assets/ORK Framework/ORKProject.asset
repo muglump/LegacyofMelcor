@@ -11,11 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
   time: 2/17/2014 11:56:04 AM
-=======
-  time: 2/17/2014 11:46:43 AM
->>>>>>> 3da107d7f8bdb17236bedcb237234c17e1634a1f
   version: 2.0.0
   keys:
   - editorSettings
