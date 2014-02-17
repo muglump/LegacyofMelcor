@@ -9,9 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
-  m_Name: 635281598708069760
+  m_Name: 635282341638424319
   m_EditorClassIdentifier: 
-  time: 2/16/2014 2:06:18 PM
+  time: 2/17/2014 11:18:51 AM
   version: 2.0.0
   keys:
   - editorSettings
@@ -803,9 +803,8 @@ MonoBehaviour:
     encrypted: 0
   - name: logs
     xmlData: "<logs>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0 logTypeID=\"0\" >\n\t\t\t\t<_bool
-      ownConsoleLearning=\"False\" ownConsoleForgetting=\"False\" />\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Blue
-      Pants and the Lost Item]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[The
-      epic quest for Blue Pants\u2019 item]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</logs>\n"
+      ownConsoleLearning=\"False\" ownConsoleForgetting=\"False\" />\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Talk
+      to the Hard Boiled General]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</logs>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -816,23 +815,29 @@ MonoBehaviour:
   - name: logTexts
     xmlData: "<logTexts>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0 logID=\"0\" >\n\t\t\t\t<_bool
       replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\" ownConsoleForgetting=\"False\"
-      />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[BP 1]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[#text.color2##text.boldBlue
-      Pants#<style#<color, seems like he lost something]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</0>\n\t\t\t<1
+      />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[BP 1]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[You
+      have awakend from a deep sleep to and unfamilar sight. A man in blue stands
+      over you looking concerned. Perhaps you should talk to him.\n#text.color2##text.boldBlue
+      Egg#<style#<color, seems like he lost something]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</0>\n\t\t\t<1
       logID=\"0\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
       ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[BP
-      2]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[\n\n#text.color2##text.boldBlue
-      Pants#<style#<color seems to have lost his #text.color2##text.boldunderpants#<style#<color
-      outside of town.\r\nGo look for it on the road to town]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</1>\n\t\t\t<2
-      logID=\"0\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
+      2]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[The
+      man in blue says that you where an ancient hero who died several hundred years
+      ago. He brought you back to life to fight an ancient evil that you defeated
+      in the past. You need to make your way to the military encampment and talk to
+      the Hard Boiled General. But be careful Bad Eggs walk the roads to the encampment.
+      ]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</1>\n\t\t\t<2 logID=\"0\"
+      >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
       ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[BP
-      3]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[\n\nYou\u2019ve
-      found the #text.color2##text.boldunderpants#<style#<color, bring them back to
-      #text.color2##text.boldBlue Pants#<style#<color.]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</2>\n\t\t\t<3
+      3]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[You
+      met with the Harboiled General who tells you that before you can face the Ancient
+      Evil you need to recover an artifact of your past. The Flaming Sword which is
+      held in the Bad Egg Dungeon.]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</2>\n\t\t\t<3
       logID=\"0\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
       ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[BP
       4]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[You
-      returned the #text.color2##text.boldunderpants#<style#<color to #text.color2##text.boldBlue
-      Pants#<style#<color and saved the day.\r\nYou\u2019re a hero! ]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</3>\n\t\t</data>\n\t</_subarrays>\n</logTexts>\n"
+      have recovered the flaming sword from the Bad Eggs you are now ready to fight
+      the Ancient Evil.]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</3>\n\t\t</data>\n\t</_subarrays>\n</logTexts>\n"
     lookUp:
       textures: []
       audioClips: []
