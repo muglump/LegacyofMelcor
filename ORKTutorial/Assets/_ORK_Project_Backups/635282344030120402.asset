@@ -9,9 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
-  m_Name: 635281542883898270
+  m_Name: 635282344030120402
   m_EditorClassIdentifier: 
-  time: 2/16/2014 1:31:08 PM
+  time: 2/17/2014 11:42:44 AM
   version: 2.0.0
   keys:
   - editorSettings
@@ -803,9 +803,11 @@ MonoBehaviour:
     encrypted: 0
   - name: logs
     xmlData: "<logs>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0 logTypeID=\"0\" >\n\t\t\t\t<_bool
-      ownConsoleLearning=\"False\" ownConsoleForgetting=\"False\" />\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Blue
-      Pants and the Lost Item]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[The
-      epic quest for Blue Pants\u2019 item]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</logs>\n"
+      ownConsoleLearning=\"False\" ownConsoleForgetting=\"False\" />\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Talk
+      to the Hard Boiled General]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1
+      logTypeID=\"0\" >\n\t\t\t\t<_bool ownConsoleLearning=\"False\" ownConsoleForgetting=\"False\"
+      />\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Fight
+      the Bad Egg]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t</data>\n\t</_subarrays>\n</logs>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -816,23 +818,89 @@ MonoBehaviour:
   - name: logTexts
     xmlData: "<logTexts>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0 logID=\"0\" >\n\t\t\t\t<_bool
       replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\" ownConsoleForgetting=\"False\"
-      />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[BP 1]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[#text.color2##text.boldBlue
-      Pants#<style#<color, seems like he lost something]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</0>\n\t\t\t<1
+      />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[BP 1]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[You
+      have awakend from a deep sleep to and unfamilar sight. A man in blue stands
+      over you looking concerned. Perhaps you should talk to him.\n#text.color2##text.boldBlue
+      Egg#<style#<color, seems like he lost something]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</0>\n\t\t\t<1
       logID=\"0\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
       ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[BP
-      2]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[\n\n#text.color2##text.boldBlue
-      Pants#<style#<color seems to have lost his #text.color2##text.boldunderpants#<style#<color
-      outside of town.\r\nGo look for it on the road to town]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</1>\n\t\t\t<2
-      logID=\"0\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
+      2]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[The
+      man in blue says that you where an ancient hero who died several hundred years
+      ago. He brought you back to life to fight an ancient evil that you defeated
+      in the past. You need to make your way to the military encampment and talk to
+      the Hard Boiled General. But be careful Bad Eggs walk the roads to the encampment.
+      ]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</1>\n\t\t\t<2 logID=\"0\"
+      >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
       ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[BP
-      3]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[\n\nYou\u2019ve
-      found the #text.color2##text.boldunderpants#<style#<color, bring them back to
-      #text.color2##text.boldBlue Pants#<style#<color.]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</2>\n\t\t\t<3
+      3]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[You
+      met with the Harboiled General who tells you that before you can face the Ancient
+      Evil you need to recover an artifact of your past. The Flaming Sword which is
+      held in the Bad Egg Dungeon.]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</2>\n\t\t\t<3
       logID=\"0\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
       ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[BP
       4]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[You
-      returned the #text.color2##text.boldunderpants#<style#<color to #text.color2##text.boldBlue
-      Pants#<style#<color and saved the day.\r\nYou\u2019re a hero! ]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</3>\n\t\t</data>\n\t</_subarrays>\n</logTexts>\n"
+      have recovered the flaming sword from the Bad Eggs you are now ready to fight
+      the Ancient Evil.]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</3>\n\t\t\t<4
+      logID=\"1\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
+      ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[FBP
+      1]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[An
+      eggman has requested that you find and return his ancestral timer. ]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</4>\n\t\t\t<5
+      logID=\"0\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
+      ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[FBP
+      2]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[This
+      nearby bad egg has a watch, unlike the others around him. Maybe he is\nthe one
+      who stole the timer. ]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</5>\n\t\t\t<6
+      logID=\"0\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
+      ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[FBP
+      3]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[You
+      have been rewarded for returning the egg's timer. Now there is no need for \nhim
+      to be overdone now. ]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</6>\n\t\t\t<7
+      logID=\"0\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
+      ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[EPB
+      1]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[With
+      the sword in hand, its time to cook the enemies. ]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</7>\n\t\t\t<8
+      logID=\"0\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
+      ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[EPB
+      2]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[Before
+      you stands the grim remains of an encampment. This is surely\nwhere the ancient
+      evil lies. Are you ready?]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</8>\n\t\t\t<9
+      logID=\"0\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
+      ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[EBP
+      3]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[And
+      once again good has vanquished evil. Mind you, those bad eggs you\nkilled are
+      still dead. ]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</9>\n\t\t\t<10
+      logID=\"0\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
+      ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[LBP
+      1]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[Something
+      seems odd about the ruins up ahead, almost as if they weren't \ndesigned for
+      egg people. Don;t get a crack exploring it. Perhaps there are \nother things
+      than the sword in here. ]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</10>\n\t\t\t<11
+      logID=\"0\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
+      ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[LBP
+      2]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[You
+      explored the dungeon and found the ancient item. Perhaps it has value\nto some
+      egg? ]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</11>\n\t\t\t<12
+      logID=\"0\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
+      ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[LBP
+      3]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[You
+      found an egg interested in the item, and have received payment for it. \nCongratulations.
+      But you think this might have been a bit over-easy. ]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</12>\n\t\t\t<13
+      logID=\"0\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
+      ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[CBP
+      1]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[There
+      are many bad eggs on the road. Clear them out. ]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</13>\n\t\t\t<14
+      logID=\"0\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
+      ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[CBP
+      2]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[Be
+      careful, it looks like the bad eggs leader is ahead. His minions are mostly
+      \ndead now though. ]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</14>\n\t\t\t<15
+      logID=\"0\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
+      ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[CBP
+      3]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[All
+      the kings horses and all the kings men can;t put humpty back together again.
+      ]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</15>\n\t\t\t<16
+      logID=\"0\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
+      ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[New]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</16>\n\t\t</data>\n\t</_subarrays>\n</logTexts>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -2635,8 +2703,27 @@ MonoBehaviour:
       />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_boolarrays>\n\t\t\t\t\t<equipPart True
       True True True True />\n\t\t\t\t\t<weapon True False False True />\n\t\t\t\t\t<armor
       True True True True True True False />\n\t\t\t\t</_boolarrays>\n\t\t\t\t<bonus>\n\t\t\t\t\t<_bool
-      useCustomBonus=\"False\" />\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<bonuses>\n\t\t\t\t\t\t</bonuses>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</bonus>\n\t\t\t\t<autoEffects>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t</effect>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</autoEffects>\n\t\t\t\t<abilityDevelopment>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<atLevel>\n\t\t\t\t\t\t</atLevel>\n\t\t\t\t\t\t<abilityTree>\n\t\t\t\t\t\t</abilityTree>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</abilityDevelopment>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<atkAttrStart>\n\t\t\t\t\t</atkAttrStart>\n\t\t\t\t\t<defAttrStart>\n\t\t\t\t\t</defAttrStart>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Goblin
-      Warrior]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t</data>\n\t</_subarrays>\n</classes>\n"
+      useCustomBonus=\"False\" />\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<bonuses>\n\t\t\t\t\t\t</bonuses>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</bonus>\n\t\t\t\t<autoEffects>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t</effect>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</autoEffects>\n\t\t\t\t<abilityDevelopment>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<atLevel>\n\t\t\t\t\t\t\t<0
+      atLevel=\"1\" abilityID=\"1\" abilityLevel=\"1\" >\n\t\t\t\t\t\t\t\t<_bool classLevel=\"False\"
+      showConsole=\"True\" />\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t<1 atLevel=\"1\"
+      abilityID=\"0\" abilityLevel=\"1\" >\n\t\t\t\t\t\t\t\t<_bool classLevel=\"False\"
+      showConsole=\"True\" />\n\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t</atLevel>\n\t\t\t\t\t\t<abilityTree>\n\t\t\t\t\t\t</abilityTree>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</abilityDevelopment>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<atkAttrStart>\n\t\t\t\t\t</atkAttrStart>\n\t\t\t\t\t<defAttrStart>\n\t\t\t\t\t</defAttrStart>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Goblin
+      Warrior]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t\t<2
+      menuID=\"0\" statusDevelopmentID=\"0\" >\n\t\t\t\t<_bool useClassAbility=\"False\"
+      ownBM=\"False\" useClassLevel=\"False\" ownLvlUp=\"False\" />\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<controlMap
+      />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_boolarrays>\n\t\t\t\t\t<equipPart True
+      True True True True />\n\t\t\t\t\t<weapon True False False False />\n\t\t\t\t\t<armor
+      True True True True True True True />\n\t\t\t\t</_boolarrays>\n\t\t\t\t<bonus>\n\t\t\t\t\t<_bool
+      useCustomBonus=\"False\" />\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<bonuses>\n\t\t\t\t\t\t</bonuses>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</bonus>\n\t\t\t\t<autoEffects>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t</effect>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</autoEffects>\n\t\t\t\t<abilityDevelopment>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<atLevel>\n\t\t\t\t\t\t\t<0
+      atLevel=\"1\" abilityID=\"4\" abilityLevel=\"1\" >\n\t\t\t\t\t\t\t\t<_bool classLevel=\"False\"
+      showConsole=\"True\" />\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t<1 atLevel=\"1\"
+      abilityID=\"5\" abilityLevel=\"1\" >\n\t\t\t\t\t\t\t\t<_bool classLevel=\"False\"
+      showConsole=\"True\" />\n\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t<2 atLevel=\"1\"
+      abilityID=\"6\" abilityLevel=\"1\" >\n\t\t\t\t\t\t\t\t<_bool classLevel=\"False\"
+      showConsole=\"True\" />\n\t\t\t\t\t\t\t</2>\n\t\t\t\t\t\t\t<3 atLevel=\"1\"
+      abilityID=\"7\" abilityLevel=\"1\" >\n\t\t\t\t\t\t\t\t<_bool classLevel=\"False\"
+      showConsole=\"True\" />\n\t\t\t\t\t\t\t</3>\n\t\t\t\t\t\t</atLevel>\n\t\t\t\t\t\t<abilityTree>\n\t\t\t\t\t\t</abilityTree>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</abilityDevelopment>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<atkAttrStart>\n\t\t\t\t\t</atkAttrStart>\n\t\t\t\t\t<defAttrStart>\n\t\t\t\t\t</defAttrStart>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Goblin
+      Shaman]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</2>\n\t\t</data>\n\t</_subarrays>\n</classes>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -2757,7 +2844,44 @@ MonoBehaviour:
       390 480 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<_type><![CDATA[AbilityStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</3>\n\t\t\t\t\t\t<4
       id=\"9\" level=\"1\" next=\"-1\" >\n\t\t\t\t\t\t\t<_bool useHighest=\"False\"
       active=\"True\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition
-      385 360 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<_type><![CDATA[AbilityStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</4>\n\t\t\t\t\t</step>\n\t\t\t\t</_subarrays>\n\t\t\t</3>\n\t\t</data>\n\t</_subarrays>\n</battleAIs>\n"
+      385 360 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<_type><![CDATA[AbilityStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</4>\n\t\t\t\t\t</step>\n\t\t\t\t</_subarrays>\n\t\t\t</3>\n\t\t\t<4
+      startIndex=\"0\" >\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 50 25 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Shaman]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<step>\n\t\t\t\t\t\t<0
+      foundType=\"2\" targetType=\"1\" needed=\"0\" nextFail=\"2\" next=\"1\" >\n\t\t\t\t\t\t\t<_bool
+      active=\"True\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition
+      60 215 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<_type><![CDATA[CheckStatusStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<req>\n\t\t\t\t\t\t\t\t\t<0
+      statusNeeded=\"0\" selectionID=\"1\" selectionID2=\"0\" comparison=\"1\" otherStatusValueID=\"0\"
+      setter=\"0\" level=\"1\" >\n\t\t\t\t\t\t\t\t\t\t<_float value=\"50\" />\n\t\t\t\t\t\t\t\t\t\t<_bool
+      checkDefAttrVal=\"False\" compareWithOther=\"False\" classLevel=\"False\" knowsAbility=\"True\"
+      learned=\"False\" applied=\"False\" isDead=\"False\" />\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</req>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
+      id=\"5\" level=\"1\" next=\"-1\" >\n\t\t\t\t\t\t\t<_bool useHighest=\"False\"
+      active=\"True\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition
+      310 215 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<_type><![CDATA[AbilityStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t\t<2
+      next=\"-1\" >\n\t\t\t\t\t\t\t<_bool active=\"True\" />\n\t\t\t\t\t\t\t<_intarrays>\n\t\t\t\t\t\t\t\t<random
+      3 5 />\n\t\t\t\t\t\t\t</_intarrays>\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition
+      55 360 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<_type><![CDATA[RandomStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t\t<3
+      foundType=\"2\" targetType=\"2\" needed=\"0\" nextFail=\"5\" next=\"4\" >\n\t\t\t\t\t\t\t<_bool
+      active=\"True\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition
+      345 315 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<_type><![CDATA[CheckStatusStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<req>\n\t\t\t\t\t\t\t\t\t<0
+      statusNeeded=\"1\" selectionID=\"0\" selectionID2=\"0\" comparison=\"0\" otherStatusValueID=\"0\"
+      setter=\"1\" level=\"1\" >\n\t\t\t\t\t\t\t\t\t\t<_float value=\"0\" />\n\t\t\t\t\t\t\t\t\t\t<_bool
+      checkDefAttrVal=\"False\" compareWithOther=\"False\" classLevel=\"False\" knowsAbility=\"True\"
+      learned=\"False\" applied=\"False\" isDead=\"False\" />\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</req>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</3>\n\t\t\t\t\t\t<4
+      id=\"6\" level=\"1\" next=\"-1\" >\n\t\t\t\t\t\t\t<_bool useHighest=\"False\"
+      active=\"True\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition
+      595 315 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<_type><![CDATA[AbilityStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</4>\n\t\t\t\t\t\t<5
+      foundType=\"2\" targetType=\"2\" needed=\"0\" nextFail=\"7\" next=\"6\" >\n\t\t\t\t\t\t\t<_bool
+      active=\"True\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition
+      293 505 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<_type><![CDATA[CheckStatusStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<req>\n\t\t\t\t\t\t\t\t\t<0
+      statusNeeded=\"0\" selectionID=\"0\" selectionID2=\"0\" comparison=\"0\" otherStatusValueID=\"0\"
+      setter=\"1\" level=\"1\" >\n\t\t\t\t\t\t\t\t\t\t<_float value=\"0\" />\n\t\t\t\t\t\t\t\t\t\t<_bool
+      checkDefAttrVal=\"False\" compareWithOther=\"False\" classLevel=\"False\" knowsAbility=\"True\"
+      learned=\"False\" applied=\"False\" isDead=\"False\" />\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</req>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</5>\n\t\t\t\t\t\t<6
+      id=\"4\" level=\"1\" next=\"-1\" >\n\t\t\t\t\t\t\t<_bool useHighest=\"False\"
+      active=\"True\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition
+      555 430 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<_type><![CDATA[AbilityStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</6>\n\t\t\t\t\t\t<7
+      id=\"0\" level=\"1\" next=\"-1\" >\n\t\t\t\t\t\t\t<_bool useHighest=\"False\"
+      active=\"True\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition
+      655 540 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<_type><![CDATA[AbilityStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</7>\n\t\t\t\t\t</step>\n\t\t\t\t</_subarrays>\n\t\t\t</4>\n\t\t</data>\n\t</_subarrays>\n</battleAIs>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -3025,8 +3149,57 @@ MonoBehaviour:
       type=\"0\" equipID=\"0\" level=\"1\" >\n\t\t\t\t\t\t\t\t\t</3>\n\t\t\t\t\t\t\t\t\t<4
       type=\"0\" equipID=\"0\" level=\"1\" >\n\t\t\t\t\t\t\t\t\t</4>\n\t\t\t\t\t\t\t\t</equipment>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</startEquipment>\n\t\t\t\t\t<baseAttack>\n\t\t\t\t\t\t<0
       id=\"0\" level=\"1\" >\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1 id=\"1\" level=\"1\"
-      >\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</baseAttack>\n\t\t\t\t\t<battleSound>\n\t\t\t\t\t</battleSound>\n\t\t\t\t\t<aiBehaviour>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Goblin
-      Warrior]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</4>\n\t\t</data>\n\t</_subarrays>\n</combatants>\n"
+      >\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</baseAttack>\n\t\t\t\t\t<battleSound>\n\t\t\t\t\t</battleSound>\n\t\t\t\t\t<aiBehaviour>\n\t\t\t\t\t\t<0
+      battleAI=\"3\" >\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Bad
+      Egg Warrior]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</4>\n\t\t\t<5
+      menuID=\"0\" animationSystem=\"0\" animationID=\"0\" animationBattleID=\"1\"
+      moveID=\"0\" startLevel=\"2\" startClassLevel=\"2\" startClassID=\"2\" statusDevelopmentID=\"0\"
+      logTextID=\"0\" logID=\"0\" stealItemType=\"0\" stealItemID=\"0\" stealMoneyAmount=\"0\"
+      aggressionType=\"0\" >\n\t\t\t\t<_float sympathyChange=\"0\" boxRadius=\"1\"
+      amaMinFallTime=\"0.3\" amaMinRunSpeed=\"3\" amaMinSprintSpeed=\"6\" stealItemFactor=\"1\"
+      stealMoneyFactor=\"1\" aiTimeout=\"0\" />\n\t\t\t\t<_bool useObjectVariables=\"False\"
+      objectVariablesLocal=\"False\" ownBM=\"False\" noRevive=\"False\" leaveOnDeath=\"False\"
+      useBattleAnims=\"True\" autoMoveAnimation=\"True\" animateDefend=\"False\" animateEscape=\"False\"
+      animateDeath=\"False\" animateNone=\"False\" useMoveAI=\"False\" noStatusDevelopment=\"True\"
+      ownLvlUp=\"False\" learnLog=\"False\" completeLog=\"False\" logShowConsole=\"True\"
+      lootInventory=\"True\" lootRandom=\"False\" stealItem=\"False\" stealFixItem=\"True\"
+      stealItemOnce=\"False\" stealMoney=\"False\" stealMoneyOnce=\"False\" aiControlled=\"True\"
+      aiNearestTarget=\"False\" attackLastTarget=\"False\" attackGroupTarget=\"False\"
+      aggressionNotifyGroup=\"True\" aggressionReactGroup=\"True\" aggressionNotifyFaction=\"False\"
+      aggressionReactFaction=\"False\" ownConsoleDefend=\"False\" ownConsoleEscape=\"False\"
+      ownConsoleDeath=\"False\" ownConsoleNone=\"False\" ownConsoleLevelUp=\"False\"
+      ownConsoleLevelUpClass=\"False\" />\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<defenceAttributeID
+      0 0 />\n\t\t\t\t\t<controlMap />\n\t\t\t\t\t<startValue 40 0 30 0 5 15 15 15
+      10 10 5 15 />\n\t\t\t\t\t<money 50 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<spawnOffset
+      0 0 0 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<objectVariablesID><![CDATA[]]></objectVariablesID>\n\t\t\t\t\t<prefabRoot><![CDATA[]]></prefabRoot>\n\t\t\t\t\t<animationCustomName><![CDATA[]]></animationCustomName>\n\t\t\t\t</_string>\n\t\t\t\t<_gameobject
+      prefab=\"5\" />\n\t\t\t\t<battleStartRange>\n\t\t\t\t\t<_float range=\"2\" threshold=\"0\"
+      />\n\t\t\t\t\t<_bool ignoreYDistance=\"True\" ignoreRadius=\"False\" />\n\t\t\t\t</battleStartRange>\n\t\t\t\t<counterChance
+      type=\"3\" id=\"3\" rounding=\"0\" >\n\t\t\t\t\t<_float offset=\"0\" value=\"0\"
+      />\n\t\t\t\t\t<_bool isInt=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t</counterChance>\n\t\t\t\t<blockChance
+      type=\"3\" id=\"3\" rounding=\"0\" >\n\t\t\t\t\t<_float offset=\"0\" value=\"0\"
+      />\n\t\t\t\t\t<_bool isInt=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t</blockChance>\n\t\t\t\t<moveSettings>\n\t\t\t\t\t<_float
+      min=\"1\" max=\"10\" />\n\t\t\t\t\t<walkSpeed type=\"0\" id=\"0\" rounding=\"0\"
+      >\n\t\t\t\t\t\t<_float offset=\"0\" value=\"3\" />\n\t\t\t\t\t\t<_bool isInt=\"False\"
+      />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</walkSpeed>\n\t\t\t\t\t<runSpeed
+      type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t<_float offset=\"0\" value=\"6\"
+      />\n\t\t\t\t\t\t<_bool isInt=\"False\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</runSpeed>\n\t\t\t\t\t<sprintSpeed
+      type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t<_float offset=\"0\" value=\"9\"
+      />\n\t\t\t\t\t\t<_bool isInt=\"False\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</sprintSpeed>\n\t\t\t\t</moveSettings>\n\t\t\t\t<abilityDevelopment>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<atLevel>\n\t\t\t\t\t\t</atLevel>\n\t\t\t\t\t\t<abilityTree>\n\t\t\t\t\t\t</abilityTree>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</abilityDevelopment>\n\t\t\t\t<bonus>\n\t\t\t\t\t<_bool
+      useCustomBonus=\"False\" />\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<bonuses>\n\t\t\t\t\t\t</bonuses>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</bonus>\n\t\t\t\t<autoEffects>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t</effect>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</autoEffects>\n\t\t\t\t<variables>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</variables>\n\t\t\t\t<counterAttack
+      id=\"0\" level=\"1\" >\n\t\t\t\t</counterAttack>\n\t\t\t\t<autoAttack abilityID=\"0\"
+      abilityLevel=\"1\" >\n\t\t\t\t\t<_float interval=\"0\" />\n\t\t\t\t\t<_bool
+      active=\"False\" useAbility=\"False\" />\n\t\t\t\t</autoAttack>\n\t\t\t\t<aggressionNotifyRangeGroup>\n\t\t\t\t\t<_float
+      range=\"20\" threshold=\"0\" />\n\t\t\t\t\t<_bool ignoreYDistance=\"True\" ignoreRadius=\"False\"
+      />\n\t\t\t\t</aggressionNotifyRangeGroup>\n\t\t\t\t<aggressionNotifyRangeFaction>\n\t\t\t\t\t<_float
+      range=\"20\" threshold=\"0\" />\n\t\t\t\t\t<_bool ignoreYDistance=\"True\" ignoreRadius=\"False\"
+      />\n\t\t\t\t</aggressionNotifyRangeFaction>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<conditionalPrefab>\n\t\t\t\t\t</conditionalPrefab>\n\t\t\t\t\t<atkAttrStart>\n\t\t\t\t\t</atkAttrStart>\n\t\t\t\t\t<defAttrStart>\n\t\t\t\t\t</defAttrStart>\n\t\t\t\t\t<fieldStatusChange>\n\t\t\t\t\t</fieldStatusChange>\n\t\t\t\t\t<battleStatusChange>\n\t\t\t\t\t</battleStatusChange>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t\t<0
+      type=\"0\" id=\"4\" level=\"1\" quantity=\"1\" >\n\t\t\t\t\t\t\t<_float chance=\"100\"
+      />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t\t<startEquipment>\n\t\t\t\t\t</startEquipment>\n\t\t\t\t\t<baseAttack>\n\t\t\t\t\t\t<0
+      id=\"0\" level=\"1\" >\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1 id=\"4\" level=\"1\"
+      >\n\t\t\t\t\t\t</1>\n\t\t\t\t\t\t<2 id=\"6\" level=\"1\" >\n\t\t\t\t\t\t</2>\n\t\t\t\t\t\t<3
+      id=\"7\" level=\"1\" >\n\t\t\t\t\t\t</3>\n\t\t\t\t\t</baseAttack>\n\t\t\t\t\t<battleSound>\n\t\t\t\t\t</battleSound>\n\t\t\t\t\t<aiBehaviour>\n\t\t\t\t\t\t<0
+      battleAI=\"4\" >\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Bad
+      Egg Shaman]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</5>\n\t\t</data>\n\t</_subarrays>\n</combatants>\n"
     lookUp:
       textures: []
       audioClips:
@@ -3039,6 +3212,7 @@ MonoBehaviour:
       - {fileID: 100030, guid: 0b4b8fc87bbef7d4e95a7574082b342c, type: 2}
       - {fileID: 100030, guid: 93140ed3968421b4887c62646ae0ce23, type: 2}
       - {fileID: 100030, guid: e339dd11fb0fa65498404706051ca68b, type: 2}
+      - {fileID: 100026, guid: c770b2a810b1bcb4cb5fd73898ba6f39, type: 2}
       - {fileID: 100026, guid: c770b2a810b1bcb4cb5fd73898ba6f39, type: 2}
       guiSkins: []
       eventAssets: []
