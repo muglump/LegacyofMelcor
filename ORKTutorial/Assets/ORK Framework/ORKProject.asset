@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 2/18/2014 7:38:43 PM
+  time: 2/18/2014 8:28:34 PM
   version: 2.0.0
   keys:
   - editorSettings
@@ -830,8 +830,7 @@ MonoBehaviour:
       replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\" ownConsoleForgetting=\"False\"
       />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[BP 1]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[You
       have awakend from a deep sleep to and unfamilar sight. A man in blue stands
-      over you looking concerned. Perhaps you should talk to him.\n#text.color2##text.boldBlue
-      Egg#<style#<color, seems like he lost something]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</0>\n\t\t\t<1
+      over you looking concerned. Perhaps you should talk to him.\n]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</0>\n\t\t\t<1
       logID=\"0\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
       ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[BP
       2]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[The

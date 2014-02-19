@@ -662,7 +662,7 @@ MonoBehaviour:
   repeatExecution: 0
   deactivateAfter: 0
   turnToEvent: 1
-  turnToPlayer: 0
+  turnToPlayer: 1
   actor: []
   waypoint: []
   prefab: []
@@ -1072,7 +1072,7 @@ MonoBehaviour:
   repeatExecution: 0
   deactivateAfter: 0
   turnToEvent: 1
-  turnToPlayer: 0
+  turnToPlayer: 1
   actor: []
   waypoint: []
   prefab: []
@@ -3229,15 +3229,13 @@ MonoBehaviour:
   useBack: 1
   useLeft: 1
   useRight: 1
-  eventAsset: {fileID: 11400000, guid: 39fcc9c9496e43245a841edaeecbb4d3, type: 2}
+  eventAsset: {fileID: 11400000, guid: 908a4537607713d4c9f67720dc413ba2, type: 2}
   interactionType: 2
   repeatExecution: 0
   deactivateAfter: 0
   turnToEvent: 1
   turnToPlayer: 1
-  actor:
-  - {fileID: 0}
-  - {fileID: 0}
+  actor: []
   waypoint: []
   prefab: []
   audioClip: []
@@ -3435,7 +3433,7 @@ MonoBehaviour:
   repeatExecution: 0
   deactivateAfter: 0
   turnToEvent: 1
-  turnToPlayer: 0
+  turnToPlayer: 1
   actor: []
   waypoint: []
   prefab: []
@@ -3717,7 +3715,7 @@ MonoBehaviour:
   repeatExecution: 0
   deactivateAfter: 0
   turnToEvent: 1
-  turnToPlayer: 0
+  turnToPlayer: 1
   actor: []
   waypoint: []
   prefab: []

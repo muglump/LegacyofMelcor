@@ -1,3 +1,7 @@
+Assets/Quest2.asset
+Assets/Quest1.asset
+Assets/bluePantsDialogue.asset
+Assets/GetLongSword.asset
 Assets/GenericDialog_12.asset
 Assets/GenericDialog_11.asset
 Assets/GenericDialog_10.asset
@@ -10,11 +14,7 @@ Assets/GenericDialog_4.asset
 Assets/GenericDialog_3.asset
 Assets/GenericDialog_2.asset
 Assets/GenericDialog_1.asset
-Assets/bluePantsDialogue.asset
 Assets/bluePantsItem.asset
 Assets/startEvent.asset
 Assets/escape.asset
 Assets/defend.asset
-Assets/death.asset
-Assets/simpleDefeat.asset
-Assets/simpleEvent.asset

@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: -1501101930, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: GetLongSword
   m_EditorClassIdentifier: 
-  time: 02/18/2014 18:26:53
+  time: 2/18/2014 8:18:36 PM
   version: 2.0.0
   data:
     name: gameEvent
