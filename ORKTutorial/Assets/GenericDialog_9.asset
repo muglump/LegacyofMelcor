@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: -1501101930, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: GenericDialog_9
   m_EditorClassIdentifier: 
-  time: 02/17/2014 14:47:52
+  time: 2/18/2014 8:09:37 PM
   version: 2.0.0
   data:
     name: gameEvent
@@ -21,7 +21,7 @@ MonoBehaviour:
       50 25 />\n\t</_floatarrays>\n\t<_string>\n\t\t<cameraName><![CDATA[]]></cameraName>\n\t</_string>\n\t<_subarrays>\n\t\t<actor>\n\t\t</actor>\n\t\t<waypoint>\n\t\t</waypoint>\n\t\t<prefab>\n\t\t</prefab>\n\t\t<audioClip>\n\t\t</audioClip>\n\t\t<step>\n\t\t\t<0
       next=\"-1\" >\n\t\t\t\t<_bool active=\"True\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
       515 145 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<_type><![CDATA[ShowDialogueStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<dialogue
-      type=\"0\" guiBoxID=\"0\" actorID=\"0\" portraitType=\"0\" clipID=\"0\" cancelNext=\"-1\"
+      type=\"0\" guiBoxID=\"1\" actorID=\"0\" portraitType=\"0\" clipID=\"0\" cancelNext=\"-1\"
       >\n\t\t\t\t\t<_float time=\"0\" />\n\t\t\t\t\t<_bool useSpeaker=\"False\" atActorPosition=\"False\"
       speakerName=\"False\" speakerPortrait=\"False\" ownPortraitPosition=\"False\"
       useAudio=\"False\" stopAudio=\"True\" onSpeaker=\"False\" allowCancel=\"False\"
@@ -30,7 +30,7 @@ MonoBehaviour:
       find then, ya lazy bum.]]></0>\n\t\t\t\t\t\t</message>\n\t\t\t\t\t</_stringarrays>\n\t\t\t\t</dialogue>\n\t\t\t</0>\n\t\t\t<1
       next=\"-1\" >\n\t\t\t\t<_bool active=\"True\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
       515 25 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<_type><![CDATA[ShowDialogueStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<dialogue
-      type=\"1\" guiBoxID=\"0\" actorID=\"0\" portraitType=\"0\" clipID=\"0\" cancelNext=\"-1\"
+      type=\"1\" guiBoxID=\"1\" actorID=\"0\" portraitType=\"0\" clipID=\"0\" cancelNext=\"-1\"
       >\n\t\t\t\t\t<_float time=\"0\" />\n\t\t\t\t\t<_bool useSpeaker=\"False\" atActorPosition=\"False\"
       speakerName=\"False\" speakerPortrait=\"False\" ownPortraitPosition=\"False\"
       useAudio=\"False\" stopAudio=\"True\" onSpeaker=\"False\" allowCancel=\"False\"
@@ -55,7 +55,7 @@ MonoBehaviour:
       I totally would.]]></name>\n\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t</content>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</2>\n\t\t\t\t\t\t</choiceOption>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</dialogue>\n\t\t\t</1>\n\t\t\t<2
       next=\"-1\" >\n\t\t\t\t<_bool active=\"True\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
       760 25 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<_type><![CDATA[ShowDialogueStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<dialogue
-      type=\"0\" guiBoxID=\"0\" actorID=\"0\" portraitType=\"0\" clipID=\"0\" cancelNext=\"-1\"
+      type=\"0\" guiBoxID=\"1\" actorID=\"0\" portraitType=\"0\" clipID=\"0\" cancelNext=\"-1\"
       >\n\t\t\t\t\t<_float time=\"0\" />\n\t\t\t\t\t<_bool useSpeaker=\"False\" atActorPosition=\"False\"
       speakerName=\"False\" speakerPortrait=\"False\" ownPortraitPosition=\"False\"
       useAudio=\"False\" stopAudio=\"True\" onSpeaker=\"False\" allowCancel=\"False\"
@@ -64,7 +64,7 @@ MonoBehaviour:
       why wouldn't ya. Can't trust no liar like yourself!]]></0>\n\t\t\t\t\t\t</message>\n\t\t\t\t\t</_stringarrays>\n\t\t\t\t</dialogue>\n\t\t\t</2>\n\t\t\t<3
       next=\"-1\" >\n\t\t\t\t<_bool active=\"True\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
       290 25 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<_type><![CDATA[ShowDialogueStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<dialogue
-      type=\"1\" guiBoxID=\"0\" actorID=\"0\" portraitType=\"0\" clipID=\"0\" cancelNext=\"-1\"
+      type=\"1\" guiBoxID=\"1\" actorID=\"0\" portraitType=\"0\" clipID=\"0\" cancelNext=\"-1\"
       >\n\t\t\t\t\t<_float time=\"0\" />\n\t\t\t\t\t<_bool useSpeaker=\"False\" atActorPosition=\"False\"
       speakerName=\"False\" speakerPortrait=\"False\" ownPortraitPosition=\"False\"
       useAudio=\"False\" stopAudio=\"True\" onSpeaker=\"False\" allowCancel=\"False\"
@@ -84,7 +84,7 @@ MonoBehaviour:
       sorry]]></name>\n\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t</content>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t</choiceOption>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</dialogue>\n\t\t\t</3>\n\t\t\t<4
       next=\"-1\" >\n\t\t\t\t<_bool active=\"True\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
       760 95 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<_type><![CDATA[ShowDialogueStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<dialogue
-      type=\"0\" guiBoxID=\"0\" actorID=\"0\" portraitType=\"0\" clipID=\"0\" cancelNext=\"-1\"
+      type=\"0\" guiBoxID=\"1\" actorID=\"0\" portraitType=\"0\" clipID=\"0\" cancelNext=\"-1\"
       >\n\t\t\t\t\t<_float time=\"0\" />\n\t\t\t\t\t<_bool useSpeaker=\"False\" atActorPosition=\"False\"
       speakerName=\"False\" speakerPortrait=\"False\" ownPortraitPosition=\"False\"
       useAudio=\"False\" stopAudio=\"True\" onSpeaker=\"False\" allowCancel=\"False\"
@@ -93,7 +93,7 @@ MonoBehaviour:
       my shell! Can't find anyone worth a lick of trust these days.]]></0>\n\t\t\t\t\t\t</message>\n\t\t\t\t\t</_stringarrays>\n\t\t\t\t</dialogue>\n\t\t\t</4>\n\t\t\t<5
       next=\"-1\" >\n\t\t\t\t<_bool active=\"True\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
       765 165 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<_type><![CDATA[ShowDialogueStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<dialogue
-      type=\"0\" guiBoxID=\"0\" actorID=\"0\" portraitType=\"0\" clipID=\"0\" cancelNext=\"-1\"
+      type=\"0\" guiBoxID=\"1\" actorID=\"0\" portraitType=\"0\" clipID=\"0\" cancelNext=\"-1\"
       >\n\t\t\t\t\t<_float time=\"0\" />\n\t\t\t\t\t<_bool useSpeaker=\"False\" atActorPosition=\"False\"
       speakerName=\"False\" speakerPortrait=\"False\" ownPortraitPosition=\"False\"
       useAudio=\"False\" stopAudio=\"True\" onSpeaker=\"False\" allowCancel=\"False\"

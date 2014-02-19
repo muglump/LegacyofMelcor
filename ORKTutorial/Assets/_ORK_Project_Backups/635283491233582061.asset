@@ -9,9 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
-  m_Name: 635281598708069760
+  m_Name: 635283491233582061
   m_EditorClassIdentifier: 
-  time: 2/16/2014 2:06:18 PM
+  time: 2/18/2014 7:25:29 PM
   version: 2.0.0
   keys:
   - editorSettings
@@ -803,9 +803,21 @@ MonoBehaviour:
     encrypted: 0
   - name: logs
     xmlData: "<logs>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0 logTypeID=\"0\" >\n\t\t\t\t<_bool
-      ownConsoleLearning=\"False\" ownConsoleForgetting=\"False\" />\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Blue
-      Pants and the Lost Item]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[The
-      epic quest for Blue Pants\u2019 item]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</logs>\n"
+      ownConsoleLearning=\"False\" ownConsoleForgetting=\"False\" />\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Talk
+      to the Hard Boiled General]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1
+      logTypeID=\"0\" >\n\t\t\t\t<_bool ownConsoleLearning=\"False\" ownConsoleForgetting=\"False\"
+      />\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Retreive
+      the timer]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t\t<2
+      logTypeID=\"0\" >\n\t\t\t\t<_bool ownConsoleLearning=\"False\" ownConsoleForgetting=\"False\"
+      />\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Attack
+      the Ancient evil]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</2>\n\t\t\t<3
+      logTypeID=\"0\" >\n\t\t\t\t<_bool ownConsoleLearning=\"False\" ownConsoleForgetting=\"False\"
+      />\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Explore!]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</3>\n\t\t\t<4
+      logTypeID=\"0\" >\n\t\t\t\t<_bool ownConsoleLearning=\"False\" ownConsoleForgetting=\"False\"
+      />\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Had
+      a fall.]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</4>\n\t\t\t<5
+      logTypeID=\"0\" >\n\t\t\t\t<_bool ownConsoleLearning=\"False\" ownConsoleForgetting=\"False\"
+      />\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Superglue]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</5>\n\t\t</data>\n\t</_subarrays>\n</logs>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -816,23 +828,95 @@ MonoBehaviour:
   - name: logTexts
     xmlData: "<logTexts>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0 logID=\"0\" >\n\t\t\t\t<_bool
       replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\" ownConsoleForgetting=\"False\"
-      />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[BP 1]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[#text.color2##text.boldBlue
-      Pants#<style#<color, seems like he lost something]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</0>\n\t\t\t<1
+      />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[BP 1]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[You
+      have awakend from a deep sleep to and unfamilar sight. A man in blue stands
+      over you looking concerned. Perhaps you should talk to him.\n#text.color2##text.boldBlue
+      Egg#<style#<color, seems like he lost something]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</0>\n\t\t\t<1
       logID=\"0\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
       ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[BP
-      2]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[\n\n#text.color2##text.boldBlue
-      Pants#<style#<color seems to have lost his #text.color2##text.boldunderpants#<style#<color
-      outside of town.\r\nGo look for it on the road to town]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</1>\n\t\t\t<2
-      logID=\"0\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
+      2]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[The
+      man in blue says that you where an ancient hero who died several hundred years
+      ago. He brought you back to life to fight an ancient evil that you defeated
+      in the past. You need to make your way to the military encampment and talk to
+      the Hard Boiled General. But be careful Bad Eggs walk the roads to the encampment.
+      ]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</1>\n\t\t\t<2 logID=\"0\"
+      >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
       ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[BP
-      3]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[\n\nYou\u2019ve
-      found the #text.color2##text.boldunderpants#<style#<color, bring them back to
-      #text.color2##text.boldBlue Pants#<style#<color.]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</2>\n\t\t\t<3
+      3]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[You
+      met with the Harboiled General who tells you that before you can face the Ancient
+      Evil you need to recover an artifact of your past. The Flaming Sword which is
+      held in the Bad Egg Dungeon.]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</2>\n\t\t\t<3
       logID=\"0\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
       ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[BP
       4]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[You
-      returned the #text.color2##text.boldunderpants#<style#<color to #text.color2##text.boldBlue
-      Pants#<style#<color and saved the day.\r\nYou\u2019re a hero! ]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</3>\n\t\t</data>\n\t</_subarrays>\n</logTexts>\n"
+      have recovered the flaming sword from the Bad Eggs you are now ready to fight
+      the Ancient Evil.]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</3>\n\t\t\t<4
+      logID=\"1\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
+      ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[FBP
+      1]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[An
+      eggman has requested that you find and return his ancestral timer. ]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</4>\n\t\t\t<5
+      logID=\"1\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
+      ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[FBP
+      2]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[This
+      nearby bad egg has a watch, unlike the others around him. Maybe he is\nthe one
+      who stole the timer. ]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</5>\n\t\t\t<6
+      logID=\"1\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
+      ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[FBP
+      3]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[You
+      have been rewarded for returning the egg's timer. Now there is no need for \nhim
+      to be overdone now. ]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</6>\n\t\t\t<7
+      logID=\"2\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
+      ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[EPB
+      1]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[With
+      the sword in hand, its time to cook the enemies. ]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</7>\n\t\t\t<8
+      logID=\"2\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
+      ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[EPB
+      2]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[Before
+      you stands the grim remains of an encampment. This is surely\nwhere the ancient
+      evil lies. Are you ready?]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</8>\n\t\t\t<9
+      logID=\"2\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
+      ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[EBP
+      3]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[And
+      once again good has vanquished evil. Mind you, those bad eggs you\nkilled are
+      still dead. ]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</9>\n\t\t\t<10
+      logID=\"3\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
+      ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[LBP
+      1]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[Something
+      seems odd about the ruins up ahead, almost as if they weren't \ndesigned for
+      egg people. Don;t get a crack exploring it. Perhaps there are \nother things
+      than the sword in here. ]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</10>\n\t\t\t<11
+      logID=\"3\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
+      ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[LBP
+      2]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[You
+      explored the dungeon and found the ancient item. Perhaps it has value\nto some
+      egg? ]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</11>\n\t\t\t<12
+      logID=\"3\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
+      ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[LBP
+      3]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[You
+      found an egg interested in the item, and have received payment for it. \nCongratulations.
+      But you think this might have been a bit over-easy. ]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</12>\n\t\t\t<13
+      logID=\"4\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
+      ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[CBP
+      1]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[There
+      are many bad eggs on the road. Clear them out. ]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</13>\n\t\t\t<14
+      logID=\"4\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
+      ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[CBP
+      2]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[Be
+      careful, it looks like the bad eggs leader is ahead. His minions are mostly
+      \ndead now though. ]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</14>\n\t\t\t<15
+      logID=\"4\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
+      ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[CBP
+      3]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[All
+      the kings horses and all the kings men can;t put humpty back together again.
+      ]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</15>\n\t\t\t<16
+      logID=\"5\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
+      ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[DBP
+      1]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[This
+      egg is injured. Perhaps you could find something to heal him with.\n]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</16>\n\t\t\t<17
+      logID=\"5\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\"
+      ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[DBP
+      2]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[That
+      fixed up his cracks. ]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t</17>\n\t\t</data>\n\t</_subarrays>\n</logTexts>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -3151,101 +3235,116 @@ MonoBehaviour:
     encrypted: 0
   - name: combatantGroups
     xmlData: "<combatantGroups>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0>\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<money
-      0 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Fighter,
-      Caster]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<member>\n\t\t\t\t\t\t<0
-      id=\"1\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      0 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Goblin]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<member>\n\t\t\t\t\t\t<0
+      id=\"4\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
       levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
       classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
       classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
-      id=\"2\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      id=\"4\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
       levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
       classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
       classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</member>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1>\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<money
-      0 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Fighter,
-      Supporter]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<member>\n\t\t\t\t\t\t<0
-      id=\"1\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      0 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Goblins]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<member>\n\t\t\t\t\t\t<0
+      id=\"4\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
       levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
       classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
       classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
-      id=\"3\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
-      levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
-      classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
-      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</member>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t\t<2>\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<money
-      0 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Fighter,
-      Caster, Supporter]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<member>\n\t\t\t\t\t\t<0
-      id=\"1\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
-      levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
-      classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
-      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
-      id=\"2\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      id=\"4\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
       levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
       classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
       classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t\t<2
-      id=\"3\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      id=\"4\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
       levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
       classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
-      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t</member>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t</_subarrays>\n\t\t\t</2>\n\t\t\t<3>\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<money
-      0 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Fighterx2]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<member>\n\t\t\t\t\t\t<0
-      id=\"1\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t\t<3
+      id=\"4\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
       levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
       classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
-      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
-      id=\"1\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
-      levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
-      classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
-      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</member>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t</_subarrays>\n\t\t\t</3>\n\t\t\t<4>\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<money
-      0 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Fighterx2,
-      Caster]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<member>\n\t\t\t\t\t\t<0
-      id=\"1\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</3>\n\t\t\t\t\t</member>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t\t<2>\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<money
+      0 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Goblins
+      End]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<member>\n\t\t\t\t\t\t<0
+      id=\"4\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
       levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
       classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
       classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
-      id=\"1\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      id=\"4\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
       levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
       classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
       classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t\t<2
-      id=\"2\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      id=\"4\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
       levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
       classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
-      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t</member>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t</_subarrays>\n\t\t\t</4>\n\t\t\t<5>\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<money
-      0 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Fighterx2,
-      Supporter]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<member>\n\t\t\t\t\t\t<0
-      id=\"1\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t\t<3
+      id=\"4\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
+      classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
+      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</3>\n\t\t\t\t\t\t<4
+      id=\"4\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
+      classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
+      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</4>\n\t\t\t\t\t\t<5
+      id=\"4\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
+      classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
+      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</5>\n\t\t\t\t\t\t<6
+      id=\"5\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
+      classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
+      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</6>\n\t\t\t\t\t</member>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t</_subarrays>\n\t\t\t</2>\n\t\t\t<3>\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<money
+      0 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Goblins
+      Dundeon]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<member>\n\t\t\t\t\t\t<0
+      id=\"4\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
       levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
       classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
       classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
-      id=\"1\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      id=\"4\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
       levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
       classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
       classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t\t<2
-      id=\"3\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      id=\"4\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
       levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
       classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
-      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t</member>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t</_subarrays>\n\t\t\t</5>\n\t\t\t<6>\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<money
-      0 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Caster,
-      Supporter]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<member>\n\t\t\t\t\t\t<0
-      id=\"2\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t\t<3
+      id=\"4\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
       levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
       classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
-      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
-      id=\"3\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</3>\n\t\t\t\t\t\t<4
+      id=\"4\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
       levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
       classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
-      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</member>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t</_subarrays>\n\t\t\t</6>\n\t\t\t<7>\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<money
-      0 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[@xCaster,
-      Supporter]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<member>\n\t\t\t\t\t\t<0
-      id=\"2\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</4>\n\t\t\t\t\t\t<5
+      id=\"4\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
       levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
       classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
-      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
-      id=\"2\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</5>\n\t\t\t\t\t\t<6
+      id=\"4\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
       levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
       classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
-      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t\t<2
-      id=\"3\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</6>\n\t\t\t\t\t\t<7
+      id=\"4\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
       levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
       classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
-      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t</member>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t</_subarrays>\n\t\t\t</7>\n\t\t</data>\n\t</_subarrays>\n</combatantGroups>\n"
+      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</7>\n\t\t\t\t\t\t<8
+      id=\"4\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
+      classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
+      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</8>\n\t\t\t\t\t\t<9
+      id=\"5\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
+      classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
+      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</9>\n\t\t\t\t\t\t<10
+      id=\"5\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
+      classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
+      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</10>\n\t\t\t\t\t\t<11
+      id=\"5\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
+      classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
+      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</11>\n\t\t\t\t\t\t<12
+      id=\"5\" levelInit=\"0\" levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\"
+      levelMaxRandom=\"99\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
+      classMinRandom=\"1\" classMaxRandom=\"99\" >\n\t\t\t\t\t\t\t<_bool levelOnlyBattle=\"False\"
+      classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</12>\n\t\t\t\t\t</member>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t</_subarrays>\n\t\t\t</3>\n\t\t</data>\n\t</_subarrays>\n</combatantGroups>\n"
     lookUp:
       textures: []
       audioClips: []

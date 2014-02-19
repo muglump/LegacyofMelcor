@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: -1501101930, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: GenericDialog_6
   m_EditorClassIdentifier: 
-  time: 02/17/2014 14:41:12
+  time: 2/18/2014 8:08:22 PM
   version: 2.0.0
   data:
     name: gameEvent
@@ -21,7 +21,7 @@ MonoBehaviour:
       50 25 />\n\t</_floatarrays>\n\t<_string>\n\t\t<cameraName><![CDATA[]]></cameraName>\n\t</_string>\n\t<_subarrays>\n\t\t<actor>\n\t\t</actor>\n\t\t<waypoint>\n\t\t</waypoint>\n\t\t<prefab>\n\t\t</prefab>\n\t\t<audioClip>\n\t\t</audioClip>\n\t\t<step>\n\t\t\t<0
       next=\"-1\" >\n\t\t\t\t<_bool active=\"True\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
       310 25 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<_type><![CDATA[ShowDialogueStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<dialogue
-      type=\"0\" guiBoxID=\"0\" actorID=\"0\" portraitType=\"0\" clipID=\"0\" cancelNext=\"-1\"
+      type=\"0\" guiBoxID=\"1\" actorID=\"0\" portraitType=\"0\" clipID=\"0\" cancelNext=\"-1\"
       >\n\t\t\t\t\t<_float time=\"0\" />\n\t\t\t\t\t<_bool useSpeaker=\"False\" atActorPosition=\"False\"
       speakerName=\"False\" speakerPortrait=\"False\" ownPortraitPosition=\"False\"
       useAudio=\"False\" stopAudio=\"True\" onSpeaker=\"False\" allowCancel=\"False\"
