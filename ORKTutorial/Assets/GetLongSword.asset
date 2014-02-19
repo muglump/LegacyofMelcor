@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1501101930, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
+  m_Name: GetLongSword
+  m_EditorClassIdentifier: 
+  time: 02/18/2014 18:26:53
+  version: 2.0.0
+  data:
+    name: gameEvent
+    xmlData: "<gameEvent startIndex=\"4\" >\n\t<_bool blockingEvent=\"False\" blockMoveAI=\"False\"
+      blockActorMoveAI=\"False\" blockPlayer=\"False\" blockCamera=\"False\" clearBlocks=\"False\"
+      mainCamera=\"True\" cameraTag=\"False\" destroyPrefabs=\"False\" />\n\t<_floatarrays>\n\t\t<nodePosition
+      50 25 />\n\t</_floatarrays>\n\t<_string>\n\t\t<cameraName><![CDATA[]]></cameraName>\n\t</_string>\n\t<_subarrays>\n\t\t<actor>\n\t\t</actor>\n\t\t<waypoint>\n\t\t</waypoint>\n\t\t<prefab>\n\t\t</prefab>\n\t\t<audioClip>\n\t\t</audioClip>\n\t\t<step>\n\t\t\t<0
+      next=\"-1\" >\n\t\t\t\t<_bool active=\"True\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      290 25 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<_type><![CDATA[ShowDialogueStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<dialogue
+      type=\"1\" guiBoxID=\"0\" actorID=\"0\" portraitType=\"0\" clipID=\"0\" cancelNext=\"-1\"
+      >\n\t\t\t\t\t<_float time=\"0\" />\n\t\t\t\t\t<_bool useSpeaker=\"False\" atActorPosition=\"False\"
+      speakerName=\"False\" speakerPortrait=\"False\" ownPortraitPosition=\"False\"
+      useAudio=\"False\" stopAudio=\"True\" onSpeaker=\"False\" allowCancel=\"False\"
+      blockAccept=\"False\" afterAudio=\"False\" wait=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<posOff
+      0 0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<posChildName><![CDATA[]]></posChildName>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t<message>\n\t\t\t\t\t\t\t<0><![CDATA[Whats
+      this? Another hard shelled recruit? Tell me, are you ready for a fight!]]></0>\n\t\t\t\t\t\t</message>\n\t\t\t\t\t</_stringarrays>\n\t\t\t\t\t<defaultSelection
+      type=\"0\" id=\"0\" id2=\"0\" id3=\"0\" value=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t<_float
+      offset=\"0\" />\n\t\t\t\t\t\t<_bool isInt=\"False\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</defaultSelection>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<choiceOption>\n\t\t\t\t\t\t\t<0
+      next=\"1\" >\n\t\t\t\t\t\t\t\t<_bool useCondition=\"False\" addItem=\"False\"
+      />\n\t\t\t\t\t\t\t\t<condition needed=\"0\" >\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</condition>\n\t\t\t\t\t\t\t\t<item
+      type=\"0\" id=\"0\" level=\"1\" quantity=\"1\" >\n\t\t\t\t\t\t\t\t\t<_float
+      chance=\"100\" />\n\t\t\t\t\t\t\t\t</item>\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<content>\n\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[Sure
+      am!]]></name>\n\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t</content>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t<1
+      next=\"2\" >\n\t\t\t\t\t\t\t\t<_bool useCondition=\"False\" addItem=\"False\"
+      />\n\t\t\t\t\t\t\t\t<condition needed=\"0\" >\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</condition>\n\t\t\t\t\t\t\t\t<item
+      type=\"0\" id=\"0\" level=\"1\" quantity=\"1\" >\n\t\t\t\t\t\t\t\t\t<_float
+      chance=\"100\" />\n\t\t\t\t\t\t\t\t</item>\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<content>\n\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[I'm
+      not really sure...]]></name>\n\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t</content>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t</choiceOption>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</dialogue>\n\t\t\t</0>\n\t\t\t<1
+      next=\"3\" >\n\t\t\t\t<_bool active=\"True\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      535 25 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<_type><![CDATA[ShowDialogueStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<dialogue
+      type=\"0\" guiBoxID=\"0\" actorID=\"0\" portraitType=\"0\" clipID=\"0\" cancelNext=\"-1\"
+      >\n\t\t\t\t\t<_float time=\"0\" />\n\t\t\t\t\t<_bool useSpeaker=\"False\" atActorPosition=\"False\"
+      speakerName=\"False\" speakerPortrait=\"False\" ownPortraitPosition=\"False\"
+      useAudio=\"False\" stopAudio=\"True\" onSpeaker=\"False\" allowCancel=\"False\"
+      blockAccept=\"False\" afterAudio=\"False\" wait=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<posOff
+      0 0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<posChildName><![CDATA[]]></posChildName>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t<message>\n\t\t\t\t\t\t\t<0><![CDATA[Thats
+      the spirit we want! Here, take this #text.boldsword#<style.]]></0>\n\t\t\t\t\t\t</message>\n\t\t\t\t\t</_stringarrays>\n\t\t\t\t</dialogue>\n\t\t\t</1>\n\t\t\t<2
+      next=\"-1\" >\n\t\t\t\t<_bool active=\"True\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      535 130 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<_type><![CDATA[ShowDialogueStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<dialogue
+      type=\"0\" guiBoxID=\"0\" actorID=\"0\" portraitType=\"0\" clipID=\"0\" cancelNext=\"-1\"
+      >\n\t\t\t\t\t<_float time=\"0\" />\n\t\t\t\t\t<_bool useSpeaker=\"False\" atActorPosition=\"False\"
+      speakerName=\"False\" speakerPortrait=\"False\" ownPortraitPosition=\"False\"
+      useAudio=\"False\" stopAudio=\"True\" onSpeaker=\"False\" allowCancel=\"False\"
+      blockAccept=\"False\" afterAudio=\"False\" wait=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<posOff
+      0 0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<posChildName><![CDATA[]]></posChildName>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t<message>\n\t\t\t\t\t\t\t<0><![CDATA[
+      Well then come back to me when you've decided!]]></0>\n\t\t\t\t\t\t</message>\n\t\t\t\t\t</_stringarrays>\n\t\t\t\t</dialogue>\n\t\t\t</2>\n\t\t\t<3
+      id=\"0\" next=\"-1\" >\n\t\t\t\t<_bool showConsole=\"True\" active=\"True\"
+      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 795 20 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<_type><![CDATA[AddToInventoryStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<item>\n\t\t\t\t\t\t<0
+      type=\"1\" id=\"2\" level=\"1\" quantity=\"1\" >\n\t\t\t\t\t\t\t<_float chance=\"100\"
+      />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</item>\n\t\t\t\t</_subarrays>\n\t\t\t</3>\n\t\t\t<4
+      id=\"0\" nextFail=\"0\" next=\"5\" >\n\t\t\t\t<_bool active=\"True\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      100 155 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<_type><![CDATA[HasInInventoryStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<item>\n\t\t\t\t\t\t<0
+      type=\"1\" id=\"2\" level=\"1\" quantity=\"1\" >\n\t\t\t\t\t\t\t<_float chance=\"100\"
+      />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</item>\n\t\t\t\t</_subarrays>\n\t\t\t</4>\n\t\t\t<5
+      next=\"-1\" >\n\t\t\t\t<_bool active=\"True\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      384 250 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<_type><![CDATA[ShowDialogueStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<dialogue
+      type=\"0\" guiBoxID=\"0\" actorID=\"0\" portraitType=\"0\" clipID=\"0\" cancelNext=\"-1\"
+      >\n\t\t\t\t\t<_float time=\"0\" />\n\t\t\t\t\t<_bool useSpeaker=\"False\" atActorPosition=\"False\"
+      speakerName=\"False\" speakerPortrait=\"False\" ownPortraitPosition=\"False\"
+      useAudio=\"False\" stopAudio=\"True\" onSpeaker=\"False\" allowCancel=\"False\"
+      blockAccept=\"False\" afterAudio=\"False\" wait=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<posOff
+      0 0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<posChildName><![CDATA[]]></posChildName>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t<message>\n\t\t\t\t\t\t\t<0><![CDATA[Hang
+      in there solider, and this will all be over soon.]]></0>\n\t\t\t\t\t\t</message>\n\t\t\t\t\t</_stringarrays>\n\t\t\t\t</dialogue>\n\t\t\t</5>\n\t\t</step>\n\t</_subarrays>\n</gameEvent>\n"
+    lookUp:
+      textures: []
+      audioClips: []
+      gameObjects: []
+      guiSkins: []
+      eventAssets: []
+    encrypted: 0
